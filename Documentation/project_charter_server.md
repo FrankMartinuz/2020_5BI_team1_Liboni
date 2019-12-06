@@ -19,10 +19,9 @@ Team: Create a server for 'chatting' between the clients
 
 Professor De Carli: Have a server that can manage all the clients request (based on his protocols)
 
-
 **Purpose (Problem or opportunity addressed by the project)**:
 
-With this server every grupo's member can chat with another classmate. The advantage of this system is that it's more secure because it's working only on the LAN
+With this server every group's member can chat with another classmate. The advantage of this system is that it's more secure because it's working only on the LAN
 
 **Goals and Objectives**: The overall goal is to give students a method to chat with their classmate. The app is expected to:
 
