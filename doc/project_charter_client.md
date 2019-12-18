@@ -20,14 +20,14 @@ Team: Create a client to comunicate with server by a chatting's platform.
 Professor De Carli: Have a Client that can speak with the other clients using a server.
 
 **Purpose (Problem or opportunity addressed by the project)**:
-By this client it's possible to speak with a different classmates's client through another Server.
+With this client it's possible to speak among different classmates's clients through another Server.
 
 **Goals and Objectives**: Our expectations for the good job of this app is expected to be:
 -
 
 -
 
-- 
+-
 
 **Schedule Information (Major milestones and deliverables)**:
 
