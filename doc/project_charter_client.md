@@ -5,7 +5,7 @@
 
 **End Date:** 12/11/2019
 
-**Project Manager:** Andrea Liboni
+**Project Manager:** Riccardo Radosta
 
 **Project Sponsor:** None
 
@@ -15,21 +15,19 @@
 
 **Stakeholders and Expectations:**
 
-Team: Create a server for 'chatting' between the clients
+Team: Create a client to comunicate with server by a chatting's platform.
 
-Professor De Carli: Have a server that can manage all the clients request (based on his protocols)
+Professor De Carli: Have a Client that can speak with the other clients using a server.
 
 **Purpose (Problem or opportunity addressed by the project)**:
+By this client it's possible to speak with a different classmates's client through another Server.
 
-With this server every group's member can chat with another classmate. The advantage of this system is that it's more secure because it's working only on the LAN
+**Goals and Objectives**: Our expectations for the good job of this app is expected to be:
+-
 
-**Goals and Objectives**: The overall goal is to give students a method to chat with their classmate. The app is expected to:
+-
 
- - Provide a interface
-
-- Function in a simple and intuitive manner.
-
-- Provide students with locations to use their Roo Bucks.
+- 
 
 **Schedule Information (Major milestones and deliverables)**:
 
