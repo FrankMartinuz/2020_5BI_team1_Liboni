@@ -1,4 +1,7 @@
 
+
+
+# Project Charter
 **Project Title:** Server Chat
 
 **Start Date:** 22/10/2019
