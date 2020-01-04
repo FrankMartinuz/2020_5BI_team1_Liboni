@@ -81,26 +81,11 @@ This document will be useful for the user and for the developer that will need t
 ## 1.3 Scope
 
 ### *Server*
-The scope of the server is 
+The scope of the server is make communicate an N number of clients between them, and offert at the users some function that can halp, like see the online users and write a brodcast message.
+## *Client*
 
 
-
-
-
-
-
-
-PALPIT will provide the ability to store information about youth users of PAL facilities in a database which will be searchable on any field. PALPIT will also provide the ability to track the use of PAL facilities by registered youth users and store this information in a database.
-
-
-
-
-
-
-
-
-
-## 1.4Definitions
+## 1.4 Definitions
 
 (this section will be expanded in later versions)
 
