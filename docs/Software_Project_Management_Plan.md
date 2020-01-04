@@ -1,9 +1,5 @@
 
-
-
-
 # Software Project Management Plan
-
 
 **Project Name** ServerChat
 
@@ -28,36 +24,37 @@ This document is stored in the project’s SVN repository at: https://github.com
 **Document Owner**
 Martino Francesco is the owner of the repository.
 
-Table of Contents
-1	OVERVIEW	4
-1.1	Purpose and Scope	4
-1.2	Goals and Objectives	4
-1.3	Project Deliverables	5
-1.4	Assumptions and Constraints	5
-1.5	Schedule and Budget Summary	6
-1.6	Success Criteria	6
-1.7	Definitions	6
-1.8	Evolution of the Project Plan	6
-2	STARTUP PLAN	6
-2.1	Team Organization	6
-2.2	Project Communications	7
-2.3	Technical Process	7
-2.4	Tools	7
-3	WORK PLAN	7
-3.1	Activities and Tasks	7
-3.2	Release Plan	8
-3.3	Iteration Plans	8
-3.4	Budget	8
-4	CONTROL PLAN	8
-4.1	Monitoring and Control	8
-4.2	Metrics Collection	8
-5	SUPPORTING PROCESS PLANS	8
-5.1	Risk Management Plan	8
-5.2	Configuration Management Plan	8
-5.3	Verification and Validation Plan	9
+**Table of Contents**
 
-1	Overview
+1	***OVERVIEW***
 1.1	Purpose and Scope
+1.2	Goals and Objectives
+1.3	Project Deliverables
+1.4	Assumptions and Constraints
+1.5	Schedule and Budget Summary
+1.6	Success Criteria
+1.7	Definitions
+1.8	Evolution of the Project Plan
+2	***STARTUP PLAN***
+2.1	Team Organization
+2.2	Project Communications
+2.3	Technical Process
+2.4	Tools
+3	***WORK PLAN***
+3.1	Activities and Tasks
+3.2	Release Plan
+3.3	Iteration Plans
+3.4	Budget
+4	***CONTROL PLAN***
+4.1	Monitoring and Control
+4.2	Metrics Collection
+5	***SUPPORTING PROCESS PLANS***
+5.1	Risk Management Plan
+5.2	Configuration Management Plan
+5.3	Verification and Validation Plan
+
+## 1	Overview
+### 1.1	Purpose and Scope
 This section provides an executive overview of the project. It explains why the project is being initiated and what can and cannot be expected from project. It may also include any background or contextual information necessary for understanding the project.
 The purpose for the project explains the problem or opportunity the project will address. The statement of purpose isn’t a statement of what you are doing (“we plan to automate billing”), but rather why you are doing it (“The purpose of this project is to streamline billing in order to save time, money and resources.”).
 
@@ -66,7 +63,7 @@ Project scope defines the boundaries of the project—what will and won’t be i
 Partial Example
 A user’s guide and a system installation guide will be provided. One-on-one personalized training isn’t one of the project deliverables.
 
-1.2	Goals and Objectives
+### 1.2	Goals and Objectives
 Goals and objectives define expected project outcomes. Goals are broad and inspirational. Objectives are narrow and measurable.
 Project goals generally related project outcomes to business objectives (reduced cost, increased revenue, improved quality, etc).
 A well-worded objective is SMART: Specific, Measurable, Attainable/Achievable, Realistic and Time-bound.
