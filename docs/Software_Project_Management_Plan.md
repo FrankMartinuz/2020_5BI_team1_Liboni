@@ -2,43 +2,32 @@
 
 
 
-Software Project Management Plan
+# Software Project Management Plan
 
 
-<<Project Name>>
-<<Date of last change>>
+**Project Name** ServerChat
 
+**Date of last change** 12/11/2019
 
+**Team Members**
+Liboni Andrea
+Tognella Matteo
+Radosta Riccardo
+Martino Francesco
 
-
-
-
-
-
-
-Team Members
-<<Name>>
-<<Name>>
-<<Name>>
-
-
-
-
-
-Document Control
+**Document Control**
 
 Change History
-Revision	Change Date	Description of changes
-V1.0	2/12/2008	Initial release
+| Revision | Change Date | Description of changes |
+|:-:|:-:|:-:|		
+| V1.0 | 22/10/2019 | Initial release |
 
+**Document Storage**
+This document is stored in the project’s SVN repository at: https://github.com/FrankMartinuz/2020_5BI_team1_Liboni.
 
-[Note change history doesn’t have to be stored with the document. Most version control tools like SVN keep track of change history automatically. The comments entered when checking in documents become the change history for the document. However, even if your version control tool supports change history, you make want to track a more detailed version here.]
+**Document Owner**
+Martino Francesco is the owner of the repository.
 
-Document Storage
-This document is stored in the project’s SVN repository at: http://company.com/svn/project-name/docs/spmp.doc.
-
-Document Owner
-Larry Smith is responsible for developing and maintaining this document.
 Table of Contents
 1	OVERVIEW	4
 1.1	Purpose and Scope	4
