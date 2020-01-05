@@ -58,7 +58,8 @@ The purpose of this project is to give a kind of text messaging application.
 The scope oh the server is manage some requests from the clients. This requests can be arequest for see a list of online users, and a request for send a text-message to one, or more, online users.
 
 **Client**
-The purpose of this project is to give a kind of text messaging application.
+This project serves to provide some sort of text messaging application.
+The scope of the client is to interface with the server in order to communicate with other client through a simplified graphical user interface.
 
 ### 1.2	Goals and Objectives
 
