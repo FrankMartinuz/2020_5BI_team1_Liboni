@@ -112,13 +112,13 @@ Budget:
 There are not production costs, in terms of money. We have only spend an a amount of 4 lesson at school.
 3 (hours for lesson) * 4 (lessons) = 12 total hours
 
-1.6	Success Criteria
-Success criteria spell out what has to happen before the project can be considered a success. Having explicit success criteria serve two purposes. First, during a project success criteria help to focus attention on what is important. Second, at the conclusion of a project (project closure) success criteria are used to assess whether or not the goals and objectives of the project have been achieved.
-To be effective in both of these endeavors, success criteria must be defined in a way that is both quantifiable and verifiable.
-For more advise on how to define the success criteria for a project, I recommend: Success Criteria Breed Success, by Karl Wiegers. It is available on the web.
-Partial Example
-•	Total project cost does not exceed 20% of the post-requirements phase estimate.
-•	All high-priority use cases in the requirements specification are delivered before May 15.
+### 1.6	Success Criteria
+
+**Server**
+The project will be a success if:
+* It work without bugs and problems with all the different client that our classmate have done and in all the situation that we expected.
+* It is ready before the delivery date.
+
 
 1.7	Definitions
 This section should define potentially unfamiliar or ambiguous words, acronyms and abbreviations.
