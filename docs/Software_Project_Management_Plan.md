@@ -164,14 +164,15 @@ For every steps we spent about an half hour.
 For the testing and bug fixing we have used about 2 hours.
 We haven't costs in terms of money.
 
-4	Control Plan
-4.1	Monitoring and Control
-Include in this section plans and procedures for tracking progress and controlling performance. Included here will be the approximate dates of technical as well as managerial reviews. Typically each major milestone or project phase will end in a review.
-For projects that don’t have a separate communication plan, this section may also include information on the timing and content of status reports and other project review documentation.
-Partial Example
-Weekly 	–	Team meeting. Project participants report status, progress and potential problems.
-3/1/2008 	– 	Critical Design Review. Formal inspection of product architecture.
-5/15/2008 	– 	Executive Review. The project manager presents current project status to project sponsor and senior executives.
+## 4	Control Plan
+### 4.1	Monitoring and Control
+
+**Server**
+01-10-2019 - Study of protocols
+15-10-2019 - Study of sockets
+22-10-2019 - Undestand chat's protocols
+29-10-2019 - Start programming in Python.
+12-11-2019 - Deliver the functioning server
 
 4.2	Project Measurements
 Product and process measures support project management and estimation by analogy. At the beginning of a project, estimates are made for product size, project cost and delivery dates. During a project, progress is tracked with measures of actual effort, integrated lines of code and actual expenditures. Keeping track of estimates and actuals during a project helps to calibrate whatever technique is being used to make estimates. Storing project performance data on completed projects provides a rich source of data for estimating future projects.
