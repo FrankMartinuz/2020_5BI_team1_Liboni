@@ -55,13 +55,10 @@ Martino Francesco is the owner of the repository.
 
 ## 1	Overview
 ### 1.1	Purpose and Scope
-This section provides an executive overview of the project. It explains why the project is being initiated and what can and cannot be expected from project. It may also include any background or contextual information necessary for understanding the project.
-The purpose for the project explains the problem or opportunity the project will address. The statement of purpose isn’t a statement of what you are doing (“we plan to automate billing”), but rather why you are doing it (“The purpose of this project is to streamline billing in order to save time, money and resources.”).
 
-Project scope defines the boundaries of the project—what will and won’t be included in the project. Defining project scope helps set expectations regarding what can be expected from the project. The scope definition may also play a role in evaluating requests for changes or new features. Project plans and estimates are based on the scope definition. A request for a change that is outside the current scope of the project can’t be accepted without a change in project scope.
-
-Partial Example
-A user’s guide and a system installation guide will be provided. One-on-one personalized training isn’t one of the project deliverables.
+**Server**
+The purpose of this project is to give a kind of text messaging application.
+The scope oh the server is manage some requests from the clients. This requests can be arequest for see a list of online users, and a request for send a text-message to one, or more, online users.
 
 ### 1.2	Goals and Objectives
 Goals and objectives define expected project outcomes. Goals are broad and inspirational. Objectives are narrow and measurable.
