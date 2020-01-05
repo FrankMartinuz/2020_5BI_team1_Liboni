@@ -72,18 +72,16 @@ The overall goal is to give students a method to chat with their classmate. The 
 
 * Guarantee to every client a reply in useful time.
 
-1.3	Project Deliverables
-This section lists the outputs of the project that are delivered to the customer.
+### 1.3	Project Deliverables
 
-Partial Example
-The following items will be delivered to the customer on or before 1/1/2008:
+The following items will be delivered to the customer on or before 6/1/2020:
 1.	Source code for both the client and server portions of the system.
 2.	User’s Guide
-3.	System Administrators Manual
-4.	Test Plan
-5.	System test Cases
-6.	Suite of regression tests
-7.	Data conversion program for migrating existing data to new database format.
+3.	Project Charter
+4.	Software Requirements Specification
+5.	Software Project Management Plan
+6.	Business Model Canvas
+7.	Project Model Canvas
 
 1.4	Assumptions and Constraints
 Assumptions are conditions, usually outside the control of the project team, that are taken for granted. Project plans (i.e. estimates) typically depend on certain assumptions being true. Assumptions that turn out to be false, may jeopardize project success. In order to reduce project risk, the project manager may elect to validate certain assumptions as part of the risk management process.
