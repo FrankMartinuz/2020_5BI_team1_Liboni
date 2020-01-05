@@ -156,6 +156,9 @@ The project will be a success if:
 * It work without bugs and problems with all the different client that our classmate have done and in all the situation that we expected.
 * It is ready before the delivery date.
 
+**Client**
+The project will be a success if work without bugs and problems with all the different server that our classmates have done and in all the situation that we expected.
+
 ## 2	Startup Plan
 ### 2.1	Team Organization
 
