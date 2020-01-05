@@ -219,7 +219,7 @@ In terms of money, this project had no costs. The only cost was the time. Approx
 ## 4	Control Plan
 ### 4.1	Monitoring and Control
 
-**Server**
+**Server and Client**
 01-10-2019 - Study of protocols
 15-10-2019 - Study of sockets
 22-10-2019 - Undestand chat's protocols
