@@ -130,6 +130,25 @@ Budget:
 There are not production costs, in terms of money. We have only spend an a amount of 4 lesson at school.
 3 (hours for lesson) * 4 (lessons) = 12 total hours
 
+**Client**
+Schedule:
+29/10/2019 - Create the file system of the program and planned the job
+
+29/10/2019 - Addition of the graphic part of the software
+
+29/10/2019 - End the main part of the software
+
+05/11/2019 - Testing
+
+05/11/2019 - Fixing the problems and bugs issue during the test
+
+05/11/2019 - End the software development
+
+20/11/2019 - Begin the documentation
+
+Budget:
+This work does not include cash costs, the only cost was the time spent on this project, approximately 5 lessons to which we have 3 hours each for a total of 15 hours.
+
 ### 1.6	Success Criteria
 
 **Server**
