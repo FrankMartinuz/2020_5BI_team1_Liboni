@@ -179,6 +179,10 @@ For this project we have proceeded step by step.
 The first step was create a listening server. Successively every packet-request available stand for one steps.
 In this way we were sure that when we pass one step, the latter did not have bugs.
 
+**Client**
+We proceeded step by stepin this project, initially we created the client that communicated with the server.
+Later we took care of the accesses or logins and new registrations, in the end we worked on the graphic part in order to facilitate the end user.
+
 ### 2.4	Tools
 
 *	Programming Language – Python
