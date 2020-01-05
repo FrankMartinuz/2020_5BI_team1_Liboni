@@ -146,18 +146,13 @@ In this way we were sure that when we pass one step, the latter did not have bug
 * Packs protocol - invented and supplied by our teacher
 
 
-3	Work Plan
-3.1	Activities and Tasks
-A work breakdown structure is an excellent tool for identifying a complete list of tasks.
-Depending on the needs of the project, some or all of the following attributes will be recorded for each task:
-•	Task name
-•	Task Description
-•	Owner
-•	Effort estimate
-•	Actual effort
-•	Planned start and stop dates
-•	Actual start and stop dates
-•	Dependencies among other tasks
+## 3	Work Plan
+### 3.1	Activities and Tasks
+
+**Server**
+Every tasks, except the first ("create a server"), take the name from the type of packets analyzed.
+At the end of all steps, there are many testing activities, using some testing clients created by us.
+
 3.2	Release Plan
 For day-to-day project management the release and iteration plans (described in the next section) are probably the two most important project management artifacts.
 The release plan lists expected completion dates for major milestones and delivery dates of key work products. The project’s technical development process to a certain extent will dictate the choice and timing of milestones and deliverables. For example, projects following the Rational Unified Process will have four major milestones: life-cycle objectives, life-cycle architecture, initial operation capability, and product release.
