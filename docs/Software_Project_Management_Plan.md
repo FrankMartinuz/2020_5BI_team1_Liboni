@@ -213,6 +213,9 @@ For every steps we spent about an half hour.
 For the testing and bug fixing we have used about 2 hours.
 We haven't costs in terms of money.
 
+**Client**
+In terms of money, this project had no costs. The only cost was the time. Approximately the time it took to develop was 2 hours, the same for correcting any bugs or errors.
+
 ## 4	Control Plan
 ### 4.1	Monitoring and Control
 
