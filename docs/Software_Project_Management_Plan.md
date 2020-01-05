@@ -85,7 +85,7 @@ The expectations for the good job of this app is expected to:
 
 ### 1.3	Project Deliverables
 
-**Server**
+**Server and Client**
 The following items will be delivered to the customer on or before 6/1/2020:
 1.	Source code for both the client and server portions of the system.
 2.	User’s Guide
@@ -105,6 +105,14 @@ Constraints:
 1.	The server must follow the teacher protocol
 2.	The server must be on the school LAN for work.
 3.	The server must be ready by 12/11/2019.
+
+**Client**
+Assumptions:
+1.	Communication between the various clients should take place through an always active server
+2.	The login or registration must be done in the graphic part
+Constraints:
+1.	The client must follow the teacher protocol
+2.	The client must be on the school LAN for work.
 
 ### 1.5	Schedule and Budget Summary
 
