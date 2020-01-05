@@ -57,6 +57,9 @@ Martino Francesco is the owner of the repository.
 The purpose of this project is to give a kind of text messaging application.
 The scope oh the server is manage some requests from the clients. This requests can be arequest for see a list of online users, and a request for send a text-message to one, or more, online users.
 
+**Client**
+The purpose of this project is to give a kind of text messaging application.
+
 ### 1.2	Goals and Objectives
 
 **Server**
