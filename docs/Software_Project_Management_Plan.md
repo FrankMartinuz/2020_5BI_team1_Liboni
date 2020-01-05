@@ -182,7 +182,7 @@ This problem depends, first of all, on power of the PC where the server has been
 ### 5.2	Configuration Management Plan
 
 **Server and Client**
-1.	All work products will be stored in a centralized CVS repository running on a central server.
+1.	All files will be stored in a GitHub repository.
 2.	The naming convention for documents will be: <name of doc type (no acronym)>.md. Except for the canvas that must have .pdf as suffix
 3.	All file of the project will be controlled by Git.
 4.	All the files that are not ended cannot stay in master branch. Every incompleted file must stay in own branch.
