@@ -119,9 +119,6 @@ The project will be a success if:
 * It work without bugs and problems with all the different client that our classmate have done and in all the situation that we expected.
 * It is ready before the delivery date.
 
-1.7	Evolution of the Project Plan
-This section describes plans for updating the project plan throughout the project.
-
 Partial Example
 Before the start of an iteration, the project plan will be updated to include a schedule of detailed tasks for the upcoming iteration. At the conclusion of an iteration, the project plan will be updated to include the actual effort for each completed task.
 Risk mitigation efforts will be evaluated at the start of each iteration. Severe risks will be analyzed and added to the project plan as soon as they materialize.
