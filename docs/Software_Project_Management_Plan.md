@@ -45,7 +45,6 @@ Martino Francesco is the owner of the repository.
 3.3	Budget
 ***4 CONTROL PLAN***
 4.1	Monitoring and Control
-4.2	Metrics Collection
 ***5 SUPPORTING PROCESS PLANS***
 5.1	Risk Management Plan
 5.2	Configuration Management Plan
@@ -173,23 +172,6 @@ We haven't costs in terms of money.
 22-10-2019 - Undestand chat's protocols
 29-10-2019 - Start programming in Python.
 12-11-2019 - Deliver the functioning server
-
-4.2	Project Measurements
-Product and process measures support project management and estimation by analogy. At the beginning of a project, estimates are made for product size, project cost and delivery dates. During a project, progress is tracked with measures of actual effort, integrated lines of code and actual expenditures. Keeping track of estimates and actuals during a project helps to calibrate whatever technique is being used to make estimates. Storing project performance data on completed projects provides a rich source of data for estimating future projects.
-
-Example
-Phase	Measurement	Source
-Release Planning	Record effort estimates for product features	Mgr
-Iteration Planning	Record effort estimates for scheduled tasks
-Update effort estimates for product features
-Update estimated dates in release plan	Mgr
-Iteration Closeout	Record actual effort for scheduled tasks
-Record actual effort for product features
-Record LOC count for modules written	Mgr/Pgr
-System Test	Record the rate at which errors are found. 	QA
-Project Closeout	Archive project performance data in process database. (See process database definition for a list of measures to record.)	Mgr
-Ongoing	Record defects found from integration testing through first year of release.
-Assign each defect to one of the following categories: blocker, critical, major, minor or trivial. Keep track of the state of each defect: open, assigned, fixed, closed.	Mgr/Pgr/QA
 
 5	Supporting Process Plans
 5.1	Risk Management Plan
