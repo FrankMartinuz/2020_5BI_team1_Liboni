@@ -61,19 +61,16 @@ The purpose of this project is to give a kind of text messaging application.
 The scope oh the server is manage some requests from the clients. This requests can be arequest for see a list of online users, and a request for send a text-message to one, or more, online users.
 
 ### 1.2	Goals and Objectives
-Goals and objectives define expected project outcomes. Goals are broad and inspirational. Objectives are narrow and measurable.
-Project goals generally related project outcomes to business objectives (reduced cost, increased revenue, improved quality, etc).
-A well-worded objective is SMART: Specific, Measurable, Attainable/Achievable, Realistic and Time-bound.
 
-Partial Example
-Project goals:
-1.	Establish a mobile porthole for real estate data.
-2.	Create a mobile porthole that appeals to homebuyers as well as home sellers.
-Project objectives:
-1.	Create a database on homes offered for sale in a local area.
-2.	Create client software that allows access to the database from mobile devices.
-3.	Create an interface that home sellers and their agents can use to enter and update home data.
-4.	Extend mobile access to real estate data in the multiple listing service (MLS).
+The overall goal is to give students a method to chat with their classmate. The app is expected to:
+
+* Manage the user identification through the sign in, log in and log out
+
+* Provide a way to chat with class members.
+
+* Give to client a server that can manage all request.
+
+* Guarantee to every client a reply in useful time.
 
 1.3	Project Deliverables
 This section lists the outputs of the project that are delivered to the customer.
