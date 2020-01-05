@@ -42,6 +42,11 @@ Police Activities League Program Involvement Tracking Project
 | 4.2.3.1 Description: Broadcast Message|
 | 4.2.3.2 Use-case: Broadcast Message|
 |**Client**|
+| 4.3 Feature: Registration and Login|
+| 4.3.1.1 Description: Registration|
+| 4.3.1.2 Use-case: Registration|
+| 4.3.2.1 Description: Login|
+| 4.3.2.2 Use-case: Login|
 
 # 1 Introduction
 
@@ -146,7 +151,7 @@ There are no legal requirements at this time.
 ### *Server*
 The server have no a GUI, so the only thing you will se on the screen is which computer identify by the IP address is connect at the server.
 ### *Client*
-The client user interface now is very easy to use. It's composed by 3 different text spaces (one for each the type of message), a column where you can see all the online user, and the button to do the logout. 
+The client user interface now is very easy to use. It's composed by 3 different text spaces (one for each the type of message), a column where you can see all the online user, and the button to do the logout.
 
 ### 3.7.2 Software Interface
 
@@ -250,15 +255,15 @@ The broadcast message is sent from one user to all the online user, so the user 
 
 ## *Client*
 
-## 4.1 Feature: Registration and Login
+## 4.3 Feature: Registration and Login
 
-This section describes how new user information will be sent to the server 
+This section describes how new user information will be sent to the server
 
-### 4.1.1.1 Description: Registration
+### 4.3.1.1 Description: Registration
 
 The registation function allow who don't have a account to create a new account and send the information to the server
 
-### 4.1.1.2 Use-case: Registrant
+### 4.3.1.2 Use-case: Registrant
 
 **Actors:** anyone does not have an account
 
@@ -269,11 +274,11 @@ Phat:
 2. The client open a new page where the user put a username and a password that will use to access tp his account.
 3. This data will be sent by the client to the server
 
-### 4.1.2.1 Description: Login
+### 4.3.2.1 Description: Login
 
 The login function allow a user that has an account to use all the function of the server.
 
-### 4.1.2.2 Use-case: Login
+### 4.3.2.2 Use-case: Login
 
 **Actors:** all the user with an account
 
@@ -283,57 +288,3 @@ Phat:
 1. The user on the GUI taps on the login button
 2. The client open a new page where the user can put his username and password and after the user taps on the send button
 3. The client sent this data to the server and if this data corresponds with a real account the server send to the client a OK message and the client open to the user the GUI with the possibility of send message, else the server send to the client an ERROR message, and the client comunicate it to the user.
-
-## 4.2 Feature: Messaging
-
-This section show all the type of message the client can manage, like:
-1. Private message;
-2. Multicast message;
-3. Broadcast message;
-
-### 4.2.1.1 Description: Private Message
-
-The private message is a message that one user can send to another online user, so a point to point message.
-
-### 4.2.1.2 Use-case: Private Message
-
-**Actors:** two loged users
-
-**Description:** the A user want to send a message to the B user using the chat server
-
-Phat:
-1. The client of the A user sent to the server a packet format by a 22(that is the number of the sender private message packet)(1 byte), the length of the data field(2 byte), and after the recipient and text of the message separated by a 0.
-2. The server processes the packet and, if the recipient is online, send a packet to the B user client.
-3. The packet is format by a 23(that is the number of the recipient private message packet)(1 byte), the length of the data field(2 byte) and the sender and text of the message separated by a 0.
-4. If all go fine, the server respond at the A user client with an OK packet, but if somethigs go wrong, it respond at the client with an ERROR packet
-
-### 4.2.2.1 Description: Multicast Message
-
-The multicast message is sent from one user to N users, so the user need to specify at who he want to send the message.
-
-### 4.2.2.2 Use-case: Multicast Message
-
-**Actors:** a user and N online users.
-
-**Description:** a A user want to send a message to N number of online users.
-
-Phat:
-1. The client of the A user sent to the server a packet format by a 24(that is the number of the sender multicast message packet)(1 byte), the length of the data field(2 byte), the N recipient of the message separated by a 0 and at the end the text of the message.
-2. The server processes the packet and, if all the recipients are online, send a packet to all the N user client.
-3. The packet is format by a 25(that is the number of the recipient multicast message packet)(1 byte), the length of the data field(2 byte) and the sender and text of the message separated by a 0.
-4. If all go fine, the server respond at the A user client with an OK packet, but if somethigs go wrong, it respond at the client with an ERROR packet
-
-### 4.2.3.1 Description: Broadcast Message
-
-The broadcast message is sent from one user to all the online user, so the user don't need to specify the recipient.
-
-### 4.2.3.2 Use-case: Broadcast Message
-
-**Actors:** a A user and all the online users.
-
-**Description:** a A user want to send a message to all the online users.
-
-1. The client of the A user sent to the server a packet format by a 20(that is the number of the sender broadcast message packet)(1 byte), the length of the data field(2 byte) and the text of the message.
-2. The server processes the packet and send a packet to all the online users.
-3. The packet is format by a 21(that is the number of the recipient broadcast message packet)(1 byte), the length of the data field(2 byte) and the sender and text of the message separated by a 0.
-4. If all go fine, the server respond at the A user client with an OK packet, but if somethigs go wrong, it respond at the client with an ERROR packet
