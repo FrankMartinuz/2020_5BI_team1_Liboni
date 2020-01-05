@@ -55,16 +55,16 @@ This document will be useful for the user and for the developer that will need t
 * Develop a server able to make chat client.
 * The server will work with different client, but using the same protocol.
 * The server have some feature to help the final user in the use of the software.
-
 ### *Client*
-* punto uno...
-* punto due...
+* Develop a client able to speak with other clients across a server
+* Gives the user an easy interface to use the client
+* Develop a security access to the user's privacy
 
 ## 1.3 Scope
-
 ### *Server*
 The scope of the server is make communicate an N number of clients between them, and offert at the users some function that can halp, like see the online users and write a brodcast message.
-
+### *Client*
+The scope of the client is to communicate with an N number of other clients through a common server, and gives the user the possibility to utilize the function offered by the server (like send normal message, send broadcast message, see the online user or group message)
 
 ## 1.4 Definitions
 definizioni di cose che possono non essere chiare nel documento
@@ -74,8 +74,6 @@ definizioni di cose che possono non essere chiare nel documento
 GUI - is the acronym of Graphic User Interface  
 
 ## 1.6 Assumptions
-
-### *Server*
 It is assumed that the client and server are in the same local network, and the firewall is disabled or is integrated a rule that allow the flow of the packet.
 
 # 2 General Design Constraints
@@ -84,17 +82,20 @@ It is assumed that the client and server are in the same local network, and the 
 
 ### *Server*
 The server's software will be put on a server machine, that have to be always active, to permit all the client to connect it and use his services.
+### *Client*
+The client software can be utilized on any type of machine, and you can start and stop it whenever you need to.
 
 
 ## 2.2 User Characteristics
 
 ### *Server*
 In the server there are no different user, there is only one basic level that allow you to chat with every client online.
+### *Client*
+In the client only one user at the time can access, and to access it must use his username and password.
 
 
 ## 2.3 Mandated Constraints
 
-### *Server*
 The only constraints that we encounter is the obbligation to use the protocol that the professor De Carli gave us, this to make all the communication protocol the same.
 
 ## 2.4 Potential System Evolution
@@ -104,6 +105,10 @@ At this moment the software of the server is done, but is very basic, so it can 
 * Add more security control
 * Product a log system to keep track of the userm movements.
 * Encrypt the message sent in network.
+### *Client*
+At this moment the software of the client is done, but is very basic, so it can be updated in the following ways:
+* Make the graphic interfaces more easier for the user to understand
+* Encrease the efficensy of the client code
 
 # 3 Nonfunctional Requirements
 
@@ -139,13 +144,16 @@ There are no legal requirements at this time.
 ### 3.7.1 User Interface
 
 ### *Server*
-The server have no a GUI, so the only thing you will se on the screen is which computer identify by the IP address is connect at the server.  
+The server have no a GUI, so the only thing you will se on the screen is which computer identify by the IP address is connect at the server.
+### *Client*
+The client user interface now is very easy to use. It's composed by 3 different text spaces (one for each the type of message), a column where you can see all the online user, and the button to do the logout. 
 
 ### 3.7.2 Software Interface
 
 ### *Server*
 See User Interface
-
+### *Client*
+The client have no a server interface
 
 # 4 System Features
 
@@ -200,6 +208,96 @@ The private message is a message that one user can send to another online user, 
 ### 4.2.1.2 Use-case: Private Message
 
 **Actors:** two login users
+
+**Description:** the A user want to send a message to the B user using the chat server
+
+Phat:
+1. The client of the A user sent to the server a packet format by a 22(that is the number of the sender private message packet)(1 byte), the length of the data field(2 byte), and after the recipient and text of the message separated by a 0.
+2. The server processes the packet and, if the recipient is online, send a packet to the B user client.
+3. The packet is format by a 23(that is the number of the recipient private message packet)(1 byte), the length of the data field(2 byte) and the sender and text of the message separated by a 0.
+4. If all go fine, the server respond at the A user client with an OK packet, but if somethigs go wrong, it respond at the client with an ERROR packet
+
+### 4.2.2.1 Description: Multicast Message
+
+The multicast message is sent from one user to N users, so the user need to specify at who he want to send the message.
+
+### 4.2.2.2 Use-case: Multicast Message
+
+**Actors:** a user and N online users.
+
+**Description:** a A user want to send a message to N number of online users.
+
+Phat:
+1. The client of the A user sent to the server a packet format by a 24(that is the number of the sender multicast message packet)(1 byte), the length of the data field(2 byte), the N recipient of the message separated by a 0 and at the end the text of the message.
+2. The server processes the packet and, if all the recipients are online, send a packet to all the N user client.
+3. The packet is format by a 25(that is the number of the recipient multicast message packet)(1 byte), the length of the data field(2 byte) and the sender and text of the message separated by a 0.
+4. If all go fine, the server respond at the A user client with an OK packet, but if somethigs go wrong, it respond at the client with an ERROR packet
+
+### 4.2.3.1 Description: Broadcast Message
+
+The broadcast message is sent from one user to all the online user, so the user don't need to specify the recipient.
+
+### 4.2.3.2 Use-case: Broadcast Message
+
+**Actors:** a A user and all the online users.
+
+**Description:** a A user want to send a message to all the online users.
+
+1. The client of the A user sent to the server a packet format by a 20(that is the number of the sender broadcast message packet)(1 byte), the length of the data field(2 byte) and the text of the message.
+2. The server processes the packet and send a packet to all the online users.
+3. The packet is format by a 21(that is the number of the recipient broadcast message packet)(1 byte), the length of the data field(2 byte) and the sender and text of the message separated by a 0.
+4. If all go fine, the server respond at the A user client with an OK packet, but if somethigs go wrong, it respond at the client with an ERROR packet
+
+## *Client*
+
+## 4.1 Feature: Registration and Login
+
+This section describes how new user information will be sent to the server 
+
+### 4.1.1.1 Description: Registration
+
+The registation function allow who don't have a account to create a new account and send the information to the server
+
+### 4.1.1.2 Use-case: Registrant
+
+**Actors:** anyone does not have an account
+
+**Description:** a user without account connect to a client, and begin the registration procedure through the user interface.
+
+Phat:
+1. The user on the GUI taps on the registration button
+2. The client open a new page where the user put a username and a password that will use to access tp his account.
+3. This data will be sent by the client to the server
+
+### 4.1.2.1 Description: Login
+
+The login function allow a user that has an account to use all the function of the server.
+
+### 4.1.2.2 Use-case: Login
+
+**Actors:** all the user with an account
+
+**Description:** a user that need to login to chat from a client to another client.
+
+Phat:
+1. The user on the GUI taps on the login button
+2. The client open a new page where the user can put his username and password and after the user taps on the send button
+3. The client sent this data to the server and if this data corresponds with a real account the server send to the client a OK message and the client open to the user the GUI with the possibility of send message, else the server send to the client an ERROR message, and the client comunicate it to the user.
+
+## 4.2 Feature: Messaging
+
+This section show all the type of message the client can manage, like:
+1. Private message;
+2. Multicast message;
+3. Broadcast message;
+
+### 4.2.1.1 Description: Private Message
+
+The private message is a message that one user can send to another online user, so a point to point message.
+
+### 4.2.1.2 Use-case: Private Message
+
+**Actors:** two loged users
 
 **Description:** the A user want to send a message to the B user using the chat server
 
