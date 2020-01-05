@@ -201,3 +201,6 @@ The product acceptance plan defines what is acceptable in terms of product quali
 
 Partial Example
 The Verification and Valida
+
+
+SEI UN TARDO
