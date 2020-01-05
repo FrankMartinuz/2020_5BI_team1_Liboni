@@ -1,7 +1,7 @@
 
 # Software Project Management Plan
 
-**Project Name** ServerChat
+**Project Name** ServerClientChat
 
 **Date of last change** 12/11/2019
 
