@@ -139,15 +139,13 @@ For this project we have proceeded step by step.
 The first step was create a listening server. Successively every packet-request available stand for one steps.
 In this way we were sure that when we pass one step, the latter did not have bugs.
 
-2.4	Tools
-This section specifies the development tools the team will be using to perform their work.
+### 2.4	Tools
 
-Partial Example
-•	Programming Language – Java
-•	Version Control – source code and written artifacts will be stored in a Subversion repository.
-•	Defect tracking – defects and issues will be tracked using Bugzilla.
-•	Build tools – local and main builds will be done using CodeMake.
-•	Automated testing – unit tests will be implemented with the JUnit testing framework.
+*	Programming Language – Python
+*	Version Control – source code and written artifacts will be stored in a GitHub repository.
+* Packs protocol - invented and supplied by our teacher
+
+
 3	Work Plan
 3.1	Activities and Tasks
 A work breakdown structure is an excellent tool for identifying a complete list of tasks.
