@@ -232,6 +232,9 @@ In terms of money, this project had no costs. The only cost was the time. Approx
 One risk, that the final user can spot in this software, is the overload of the LAN, or of the Computer where the server is running.
 This problem depends, first of all, on power of the PC where the server has been ran, in second on how many clients want to use the service simultaneously. The only way to fix this problem is to improve the PC stats, or increase the band available.
 
+**Client**
+A possible risk is the possibility that the servers to which they connect may be overloaded with requests, preventing the correct functioning of the platform. This depends on the computing power of the computers where the server is running, the only way is to upgrade the PCs.
+
 ### 5.2	Configuration Management Plan
 
 **Server and Client**
