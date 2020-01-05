@@ -74,6 +74,15 @@ The overall goal is to give students a method to chat with their classmate. The 
 
 * Guarantee to every client a reply in useful time.
 
+**Client**
+The expectations for the good job of this app is expected to:
+
+* Provide a way to chat with classmates;
+
+* Facilitate the use of the latter to the customer;
+
+* Interface with the server to communicate with other clients.
+
 ### 1.3	Project Deliverables
 
 **Server**
