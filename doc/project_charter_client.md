@@ -35,7 +35,7 @@ Our expectations for the good job of this app is expected to:
 
 * Facilitate the use of the latter to the customer;
 
-* Interface with the server to communicate with other clients
+* Interface with the server to communicate with other clients.
 
 # **Schedule Information (Major milestones and deliverables)**:
 
@@ -54,38 +54,44 @@ Our expectations for the good job of this app is expected to:
 20/11/2019 - Begin the documentation
 
 # **Financial Information (Cost estimate and budget information)**:
-This work does not include cash costs, the only cost was the time spent on this project,  approximately 5 lessons to which we have 3 hours each for a total of 15 hours
+This work does not include cash costs, the only cost was the time spent on this project,  approximately 5 lessons to which we have 3 hours each for a total of 15 hours.
 
 # **Project Priorities and degrees of freedom:**
 We have no major limitations except the delivery deadline. We had all the time available, both at school and at home, we decide how distribute our work.
 
 # **Approach:**
-We proceed step by step, we start with the communication between server and client, then we take care of the graphic part and finally we combine everything
+We proceed step by step, we start with the communication between server and client, then we take care of the graphic part and finally we combine everything.
 
 # **Constraints**:
-The only constraint we have is the protocol given by the professor which had to be strictly followed
+The only constraint we have is the protocol given by the professor which had to be strictly followed.
 
 # **Assumptions**:
 Our software should be similar to a chatting application commonly used on all smartphones, only more primitive and very simple
 
 # **Success Criteria**:
-The project will be considered a success if (1) the team delivers an operational prototype at the end of the semester with the features mentioned in the goal section above, and (2) 80% or more of the team members would be willing to work together on another software project in the future.
+The project will be a success if work without bugs and problems with all the different server that our classmate have done and in all the situation that we expected.
 
 # **Scope**:
-At the minimum, the software will (1) allow users to check their Roo Bucks balance, and (2) see a list of Roo Bucks locations.  Time permitting, the scope could be extended to include features available to Roo Bucks users online, including adding funds to their accounts and tracking recent purchases.
+The purpose of the client is to interface to communicate, through the servers, with other clients like a chatting system.
 
 # **Risks and obstacles to success**:  
-A risk the team faces is a lack of experience in developing mobile apps.  This lack of experience generates a lot of unknowns.  We have  only a best guess for the level of work required for the features we have committed to.  We do not yet have a clear picture of how the code will be implemented.
+The main obstacles encountered were in the generalization of the code for greater compatibility with the servers.
+
 
 # **Signatures**
+
 Riccardo Radosta
-**Project Manager**
+**__________________________________
+Project Manager**
 
 I.T.I. G.Marconi
-**Project Sponsor**
+**__________________________________
+Project Sponsor**
 
 Liboni Andrea, Francesco Martino
-**Customer**
+**__________________________________
+Customer**
 
 Professor De Carli Lorenzo
-**Technical Lead**
+**__________________________________
+Technical Lead**
