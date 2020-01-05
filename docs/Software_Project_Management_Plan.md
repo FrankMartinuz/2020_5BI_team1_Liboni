@@ -173,9 +173,11 @@ We haven't costs in terms of money.
 29-10-2019 - Start programming in Python.
 12-11-2019 - Deliver the functioning server
 
-5	Supporting Process Plans
-5.1	Risk Management Plan
-Identify technical and managerial risks. Prioritize risks. Consider the probability of each risk turning into a problem and the likely consequences. For the highest priority risks, what actions will be taken to minimize the probability of the risk turning into a problem and the resulting consequences? What are the contingency plans for selected risks that do become a problem? Identify processes for monitoring risks and updating the risk management plan.
+## 5	Supporting Process Plans
+### 5.1	Risk Management Plan
+**Server**
+One risk, that the final user can spot in this software, is the overload of the LAN, or of the Computer where the server is running.
+This problem depends, first of all, on power of the PC where the server has been ran, in second on how many clients want to use the service simultaneously. The only way to fix this problem is to improve the PC stats, or increase the band available.
 
 5.2	Configuration Management Plan
 Configuration management plans for this document and other baselined work products including review procedures and change management procedures.
