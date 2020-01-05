@@ -197,6 +197,9 @@ Later we took care of the accesses or logins and new registrations, in the end w
 Every tasks, except the first ("create a server"), take the name from the type of packets analyzed.
 At the end of all steps, there are many testing activities, using some testing clients created by us.
 
+**Client**
+In the project, the activities were carried out step by step, from the simplest and most basic parts, to the most sophisticated and then concluded with the graphic part, with the related verification of any errors or bugs.
+
 ### 3.2	Release Plan
 
 **Server**
