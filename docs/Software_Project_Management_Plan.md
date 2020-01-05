@@ -26,29 +26,27 @@ Martino Francesco is the owner of the repository.
 
 **Table of Contents**
 
-1	***OVERVIEW***
+***1 OVERVIEW***
 1.1	Purpose and Scope
 1.2	Goals and Objectives
 1.3	Project Deliverables
 1.4	Assumptions and Constraints
 1.5	Schedule and Budget Summary
 1.6	Success Criteria
-1.7	Definitions
-1.8	Evolution of the Project Plan
-2	***STARTUP PLAN***
+1.7	Evolution of the Project Plan
+***2 STARTUP PLAN***
 2.1	Team Organization
 2.2	Project Communications
 2.3	Technical Process
 2.4	Tools
-3	***WORK PLAN***
+***3 WORK PLAN***
 3.1	Activities and Tasks
 3.2	Release Plan
-3.3	Iteration Plans
-3.4	Budget
-4	***CONTROL PLAN***
+3.3	Budget
+***4 CONTROL PLAN***
 4.1	Monitoring and Control
 4.2	Metrics Collection
-5	***SUPPORTING PROCESS PLANS***
+***5 SUPPORTING PROCESS PLANS***
 5.1	Risk Management Plan
 5.2	Configuration Management Plan
 5.3	Verification and Validation Plan
