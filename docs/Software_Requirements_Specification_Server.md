@@ -133,18 +133,17 @@ There are no legal requirements at this time.
 
 ## 3.6 Documentation and Training
 
-The PALPIT documentation will consist of two major portions – one dealing with the administrator features, as well as one dealing with the youth features. Training will be provided to a select group of administrators on administrator _and_ youth features.
 
 ## 3.7 External Interface
 
 ### 3.7.1 User Interface
 
-#### *Server*
+### *Server*
 The server have no a GUI, so the only thing you will se on the screen is which computer identify by the IP address is connect at the server.  
 
 ### 3.7.2 Software Interface
 
-#### *Server*
+### *Server*
 See User Interface
 
 
