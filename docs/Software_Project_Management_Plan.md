@@ -252,3 +252,10 @@ The product will be accept if:
 * Can reply to all clients request without problems.
 * The delivery date was respected.
 * The documentation explains as best it can the software.
+
+**Client**
+The product will be accepted if:
+* Can communicate with clients through servers without problems
+* The login works correctly
+* The delivery date has been respected.
+* The documentation best explains the features of the software.
