@@ -60,13 +60,13 @@ This work does not include cash costs, the only cost was the time spent on this 
 We have no major limitations except the delivery deadline. We had all the time available, both at school and at home, we decide how distribute our work.
 
 # **Approach:**
-Iterative and incremental is planned.  Feedback will be used from one iteration to the next.  The first iteration will focus on basic functionality of the app.  Subsequent iterations will build upon that and incorporate more features as time allows.
+We proceed step by step, we start with the communication between server and client, then we take care of the graphic part and finally we combine everything
 
 # **Constraints**:
-Approval is required from UMKC to make this an official UMKC app.  Any UMKC symbols used in the app must adhere to guidelines the university provides.  Consent may be required from the One Card office to proceed with the proposed screen scrape of umkc.managemyid.com.  We are proceeding with the project while pursuing this consent with the understanding we may not get it.  If consent is denied, the team will create an unofficial RooBucks app.
+The only constraint we have is the protocol given by the professor which had to be strictly followed
 
 # **Assumptions**:
-UMKC terminals are available and function when we need them.  Remote MAC Lab will allow our programmers to work away from UMKC.  Interfacing the app with third-party website is feasible.
+Our software should be similar to a chatting application commonly used on all smartphones, only more primitive and very simple
 
 # **Success Criteria**:
 The project will be considered a success if (1) the team delivers an operational prototype at the end of the semester with the features mentioned in the goal section above, and (2) 80% or more of the team members would be willing to work together on another software project in the future.
