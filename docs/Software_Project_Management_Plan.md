@@ -119,10 +119,7 @@ The project will be a success if:
 * It work without bugs and problems with all the different client that our classmate have done and in all the situation that we expected.
 * It is ready before the delivery date.
 
-
-1.7	Definitions
-This section should define potentially unfamiliar or ambiguous words, acronyms and abbreviations.
-1.8	Evolution of the Project Plan
+1.7	Evolution of the Project Plan
 This section describes plans for updating the project plan throughout the project.
 
 Partial Example
