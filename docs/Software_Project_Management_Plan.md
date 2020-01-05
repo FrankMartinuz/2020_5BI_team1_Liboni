@@ -119,16 +119,12 @@ The project will be a success if:
 * It work without bugs and problems with all the different client that our classmate have done and in all the situation that we expected.
 * It is ready before the delivery date.
 
-Partial Example
-Before the start of an iteration, the project plan will be updated to include a schedule of detailed tasks for the upcoming iteration. At the conclusion of an iteration, the project plan will be updated to include the actual effort for each completed task.
-Risk mitigation efforts will be evaluated at the start of each iteration. Severe risks will be analyzed and added to the project plan as soon as they materialize.
-2	Startup Plan
-2.1	Team Organization
-This section explains project roles and the authorities and responsibilities associated with these roles. Lines of communication, authority and reporting relationships are often shown with an org chart. If development team is known, actual names can be associated with roles.
-Partial Example
-Project Manager: 	The project manager is responsible for creating the project plan (with input from those doing the work), managing risks, running the weekly team meeting and providing monthly status reports to senior management.
-Programmers (3): 	Programmers are primary responsible for coding and unit testing modules. They are also expected to take part in architecture planning and review meetings.
-Build Coordinator:	The build coordinator is responsible for setting up, running and distributing the results of the nightly build.
+## 2	Startup Plan
+### 2.1	Team Organization
+
+**Server**
+Teacher: Provide to us a packs protocol that we have to use in our chat.
+Programmers (2): Programmers have to plan the project, and after write all the code.
 
 2.2	Project Communications
 This section contains the project communications plan. The communications plan describes how information is gathered and distributed.
