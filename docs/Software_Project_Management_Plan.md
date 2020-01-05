@@ -159,10 +159,13 @@ At the end of all steps, there are many testing activities, using some testing c
 For this project we have choosen to do only one release, or rather the final release.
 This choice born because this is project have limited size and features.
 
-3.3	Iteration Plans
-An iteration plan is a short-term fine-grained plan that shows the tasks to be completed during an iteration.
-3.4	Budget
-The project budget is the projected cost of the project as a function of time. At any point in the project you should be able to say how much money has already been spent and estimate of the amount of money needed to complete the project.
+### 3.3	Budget
+
+**Server**
+For every steps we spent about an half hour.
+For the testing and bug fixing we have used about 2 hours.
+We haven't costs in terms of money.
+
 4	Control Plan
 4.1	Monitoring and Control
 Include in this section plans and procedures for tracking progress and controlling performance. Included here will be the approximate dates of technical as well as managerial reviews. Typically each major milestone or project phase will end in a review.
