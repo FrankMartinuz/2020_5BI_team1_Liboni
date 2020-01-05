@@ -31,11 +31,11 @@ With this client it's possible to speak among different classmates's clients thr
 
 # **Goals and Objectives**:
 Our expectations for the good job of this app is expected to:
-- Provide a way to chat with classmates;
+* Provide a way to chat with classmates;
 
-- Facilitate the use of the latter to the customer;
+* Facilitate the use of the latter to the customer;
 
-- Interface with the server to communicate with other clients
+* Interface with the server to communicate with other clients
 
 # **Schedule Information (Major milestones and deliverables)**:
 
