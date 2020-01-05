@@ -28,37 +28,20 @@ Police Activities League Program Involvement Tracking Project
 | 3.7.1 User Interface|
 | 3.7.2 Software Interface|
 | **4 System Features**|
-| 4.1 Feature: Youth Database|
-| 4.1.1 Description and Priority|
-| 4.1.2 Use-case: New Registrant|
-| 4.1.3 Additional Requirements|
-| 4.1.4 Description and Priority|
-| 4.1.5 Use-case: Youth Update|
-| 4.1.6 Additional Requirements|
-| 4.2 Feature: Youth Tracking|
-| 4.2.1 Description and Priority|
-| 4.2.2 Use Case: Youth Login|
-| 4.2.3 Additional Requirements|
-| 4.2.4 Description and Priority|
-| 4.2.5 Use-case: Youth Logout|
-| 4.2.6 Additional Requirements|
-| 4.2.7 Description and Priority|
-| 4.2.8 Use-case: Administrator comments|
-| 4.2.9 Additional Requirements|
-| 4.3 Feature: Administrator Access|
-| 4.3.1 Description and Priority|
-| 4.3.2 Use Case: Administrator Login|
-| 4.3.3 Additional Requirements|
-| 4.4 Feature: Database Search|
-| 4.4.1 Description and Priority|
-| 4.4.2 Use-case: Searching the Database|
-| 4.5 Feature: Reports|
-| 4.5.1 Description and Priority|
-| 4.5.2 Use-case: Report Generator|
-| 4.5.3 Additional Requirements|
-| **5 Appendices**|
-| 5.1 Appendix A|
-| 5.2 Appendix B|
+|**Server**|
+| 4.1 Feature: Registration and Login|
+| 4.1.1.1 Description: Registration|
+| 4.1.1.2 Use-case: Registration|
+| 4.1.2.1 Description: Login|
+| 4.1.2.2 Use-case: Login|
+| 4.2 Feature: Messaging|
+| 4.2.1.1 Description: Private Message|
+| 4.2.1.1 Use Case: Private Message|
+| 4.2.2.1 Description: Multicast Message|
+| 4.2.2.2 Use-case: Multicast Message|
+| 4.2.3.1 Description: Broadcast Message|
+| 4.2.3.2 Use-case: Broadcast Message|
+|**Client**|
 
 # 1 Introduction
 
@@ -167,68 +150,93 @@ See User Interface
 
 # 4 System Features
 
+## *Server*
 
+## 4.1 Feature: Registration and Login
 
+This section describes how new user information will be added to the list of users and how a user can login.
 
+### 4.1.1.1 Description: Registration
 
+The registation function allow who don't have a account to create a new account and add the information to the User.csv file.
 
+### 4.1.1.2 Use-case: Registrant
 
+**Actors:** anyone does not have an account
 
+**Description:** a user without account connect to the server from a client, and begin the registration procedure.
 
+Phat:
+1. The client sent to the server a packet format by a 10(that is the number of the registration packet)(1 byte), the length of the data field(2 byte), and after the username and password of the new account separated by a 0.
+2. The server processes this packet and, if all go fine, add the new account at the user.csv file.
+3. If all go fine, the server respond at the client with an OK packet, but if somethigs go wrong, it respond at the client with an ERROR packet
 
+### 4.1.2.1 Description: Login
 
+The login function allow a user that have an account to use all the function of the server.
 
+### 4.1.2.2 Use-case: Login
 
-# 5Appendices
+**Actors:** all the user with an account
 
-## 5.1Appendix A
+**Description:** a user that need to login to chat from a client to another client.
 
-Youth Registrant Information
+Phat:
+1. The client sent to the server a packet format by a 11(that is the number of the login packet)(1 byte), the length of the data field(2 byte), and after the username and password of the account separated by a 0.
+2. The server processes this packet and compares the username and password to the User.csv file.
+3. If find a corrispondence, send to the client a OK packet, but if don't find it, it will send an ERROR packet, specifying the type of error.
+4. If the login go fine, the server set the user to online, and unlock the messaging function
 
-Name
+## 4.2 Feature: Messaging
 
-Address
+This section show all the type of message the server can manage, like:
+1. Private message;
+2. Multicast message;
+3. Broadcast message;
 
-Ethnicity
+### 4.2.1.1 Description: Private Message
 
-Age
+The private message is a message that one user can send to another online user, so a point to point message.
 
-Sex
+### 4.2.1.2 Use-case: Private Message
 
-School
+**Actors:** two login users
 
-Student ID #
+**Description:** the A user want to send a message to the B user using the chat server
 
-Date of Birth
+Phat:
+1. The client of the A user sent to the server a packet format by a 22(that is the number of the sender private message packet)(1 byte), the length of the data field(2 byte), and after the recipient and text of the message separated by a 0.
+2. The server processes the packet and, if the recipient is online, send a packet to the B user client.
+3. The packet is format by a 23(that is the number of the recipient private message packet)(1 byte), the length of the data field(2 byte) and the sender and text of the message separated by a 0.
+4. If all go fine, the server respond at the A user client with an OK packet, but if somethigs go wrong, it respond at the client with an ERROR packet
 
-Parent Name
+### 4.2.2.1 Description: Multicast Message
 
-Home Phone
+The multicast message is sent from one user to N users, so the user need to specify at who he want to send the message.
 
-Emergency Contact / Phone Number
+### 4.2.2.2 Use-case: Multicast Message
 
-Medical Insurance Information
+**Actors:** a user and N online users.
 
-Family Physician Name
+**Description:** a A user want to send a message to N number of online users.
 
-Family Physician Phone
+Phat:
+1. The client of the A user sent to the server a packet format by a 24(that is the number of the sender multicast message packet)(1 byte), the length of the data field(2 byte), the N recipient of the message separated by a 0 and at the end the text of the message.
+2. The server processes the packet and, if all the recipients are online, send a packet to all the N user client.
+3. The packet is format by a 25(that is the number of the recipient multicast message packet)(1 byte), the length of the data field(2 byte) and the sender and text of the message separated by a 0.
+4. If all go fine, the server respond at the A user client with an OK packet, but if somethigs go wrong, it respond at the client with an ERROR packet
 
-Hospital Preference
+### 4.2.3.1 Description: Broadcast Message
 
-Known Allergies or Medical Conditions
+The broadcast message is sent from one user to all the online user, so the user don't need to specify the recipient.
 
-GPA
+### 4.2.3.2 Use-case: Broadcast Message
 
-## 5.2Appendix B
+**Actors:** a A user and all the online users.
 
-Administrator Options
+**Description:** a A user want to send a message to all the online users.
 
-Multi-field database query
-
-Generate predefined reports
-
-Generate custom reports
-
-Update Youth Record
-
-TBD
+1. The client of the A user sent to the server a packet format by a 20(that is the number of the sender broadcast message packet)(1 byte), the length of the data field(2 byte) and the text of the message.
+2. The server processes the packet and send a packet to all the online users.
+3. The packet is format by a 21(that is the number of the recipient broadcast message packet)(1 byte), the length of the data field(2 byte) and the sender and text of the message separated by a 0.
+4. If all go fine, the server respond at the A user client with an OK packet, but if somethigs go wrong, it respond at the client with an ERROR packet
