@@ -48,7 +48,7 @@ Martino Francesco is the owner of the repository.
 ***5 SUPPORTING PROCESS PLANS***
 5.1	Risk Management Plan
 5.2	Configuration Management Plan
-5.3	Verification and Validation Plan
+5.3	Product Acceptance Plan
 
 ## 1	Overview
 ### 1.1	Purpose and Scope
@@ -189,14 +189,10 @@ This problem depends, first of all, on power of the PC where the server has been
 5.	First of every merge with the master, contact the owner of the repo.
 6.	Every commit must be reasonable, because we will use it as changes history.
 
-5.3	Verification and Validation Plan
-The verification and validation plan defines what actions are being taken to assure the quality of the development process and resulting software products.
+### 5.3	Product Acceptance Plan
 
-Partial Example
-The Verification and Validation plan is specified as a separate documented located in the version control system at: http://company.com/svn/project-name/docs/VandVPlan.doc
-
-5.4	Product Acceptance Plan
-The product acceptance plan defines what is acceptable in terms of product quality and product functionality. Acceptance criteria should be objective and measurable. Note product success is one aspect of project success.  Teams wanting to establish a clear understanding of what will be considered acceptable project performance may want to define a more general plan for project success that includes quantitative goals for delivery date, cost, etc.
-
-Partial Example
-The Verification and Valida
+**Server**
+The product will be accept if:
+* Can reply to all clients request without problems.
+* The delivery date was respected.
+* The documentation explains as best it can the software.
