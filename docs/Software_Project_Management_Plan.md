@@ -182,16 +182,15 @@ We haven't costs in terms of money.
 One risk, that the final user can spot in this software, is the overload of the LAN, or of the Computer where the server is running.
 This problem depends, first of all, on power of the PC where the server has been ran, in second on how many clients want to use the service simultaneously. The only way to fix this problem is to improve the PC stats, or increase the band available.
 
-5.2	Configuration Management Plan
-Configuration management plans for this document and other baselined work products including review procedures and change management procedures.
+### 5.2	Configuration Management Plan
 
-Partial Example
-1.	All work products will be stored in a centralized CVS repository running on a central server.
-2.	The naming convention for documents will be: NNN-VVV.suffix  where NNN is a mnemonic that reflects the function of the document, VVV is a 3 digit version number, and 'suffix' is the standard/normal suffix for the document type. For example, the second version of the requirements document created as a Microsoft Word document might be labeled: REQ-002.doc.
-3.	All project (work products) items (documents, source code, test cases, program data, test data, etc) will be stored in the CVS repository but not all will be under change control (subject to formal change control procedures.) Only the system requirements, project plan and source code will be baselined and under configuration control.
-4.	Items that are subject to change control will be considered baselined after a group review at the end of the life cycle phase during which they are created. Baselined here means that the product has undergone a formal review and can only be changed through the prescribed change control procedures.
-5.	The change control procedure once a product is baselined is: (1) anyone wanting to make a change to a baselined item sends an email to the rest of the group describing the change, reason for the change, expected impact, and timeline for integrating the change. (2) if no one responds to the group within 2 days with a reason for why the change request shouldn't be permitted, it will be considered accepted and the person proposing the change may proceed with the change. If anyone does object to the change, the reason for objecting will be discussed at a meeting where everyone is invited to attend and voice their opinion. At the end of the meeting a democratic vote will be held to decide whether or not the change should be allowed.
-6.	Including a change history with all documents is encouraged but only required for baselined documents. The change history should be at the front of the work item and include: (1) the name of the person making the change, (2) brief description of what has changed, (3) reason for the change, and (4) the date the change was integrated.
+**Server and Client**
+1.	All files will be stored in a GitHub repository.
+2.	The naming convention for documents will be: <name of doc type (no acronym)>.md. Except for the canvas that must have .pdf as suffix
+3.	All file of the project will be controlled by Git.
+4.	All the files that are not ended cannot stay in master branch. Every incompleted file must stay in own branch.
+5.	First of every merge with the master, contact the owner of the repo.
+6.	Every commit must be reasonable, because we will use it as changes history.
 
 5.3	Verification and Validation Plan
 The verification and validation plan defines what actions are being taken to assure the quality of the development process and resulting software products.
@@ -204,6 +203,3 @@ The product acceptance plan defines what is acceptable in terms of product quali
 
 Partial Example
 The Verification and Valida
-
-
-SEI UN TARDO
