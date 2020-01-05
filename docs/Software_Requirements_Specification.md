@@ -23,10 +23,9 @@ Police Activities League Program Involvement Tracking Project
 | 3.3 Security Requirements|
 | 3.4 Safety Requirements|
 | 3.5 Legal Requirements|
-| 3.6 Documentation and Training????????????????????????|
-| 3.7 External Interface|
-| 3.7.1 User Interface|
-| 3.7.2 Software Interface|
+| 3.6 External Interface|
+| 3.6.1 User Interface|
+| 3.6.2 Software Interface|
 | **4 System Features**|
 |**Server**|
 | 4.1 Feature: Registration and Login|
@@ -141,19 +140,16 @@ There are no safety requirements at this time.
 
 There are no legal requirements at this time.
 
-## 3.6 Documentation and Training
+## 3.6 External Interface
 
-
-## 3.7 External Interface
-
-### 3.7.1 User Interface
+### 3.6.1 User Interface
 
 ### *Server*
 The server have no a GUI, so the only thing you will se on the screen is which computer identify by the IP address is connect at the server.
 ### *Client*
 The client user interface now is very easy to use. It's composed by 3 different text spaces (one for each the type of message), a column where you can see all the online user, and the button to do the logout.
 
-### 3.7.2 Software Interface
+### 3.6.2 Software Interface
 
 ### *Server*
 See User Interface
