@@ -202,7 +202,7 @@ In the project, the activities were carried out step by step, from the simplest 
 
 ### 3.2	Release Plan
 
-**Server**
+**Server and Client**
 For this project we have choosen to do only one release, or rather the final release.
 This choice born because this is project have limited size and features.
 
