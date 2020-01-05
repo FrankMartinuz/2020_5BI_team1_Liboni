@@ -23,11 +23,10 @@ Police Activities League Program Involvement Tracking Project
 | 3.3 Security Requirements|
 | 3.4 Safety Requirements|
 | 3.5 Legal Requirements|
-| 3.6 Other Quality Attributes|
-| 3.7 Documentation and Training|
-| 3.8 External Interface|
-| 3.8.1 User Interface|
-| 3.8.2 Software Interface|
+| 3.6 Documentation and Training????????????????????????|
+| 3.7 External Interface|
+| 3.7.1 User Interface|
+| 3.7.2 Software Interface|
 | **4 System Features**|
 | 4.1 Feature: Youth Database|
 | 4.1.1 Description and Priority|
@@ -82,58 +81,77 @@ This document will be useful for the user and for the developer that will need t
 
 ### *Server*
 The scope of the server is make communicate an N number of clients between them, and offert at the users some function that can halp, like see the online users and write a brodcast message.
-## *Client*
+### *Client*
 
 
 ## 1.4 Definitions
+definizioni di cose che possono non essere chiare nel documento
 
-(this section will be expanded in later versions)
+### *Server*
 
-**Use case** – describes a goal-oriented interaction between the system and an actor. A use case may define several variants called scenarios that result in different paths through the use case and usually different outcomes.
+### *Client*
 
-**Clock-in** – time at which a youth participant begins to use a PAL facility
+## 1.5 Document Conventions
 
-**Clock-out** – time at which a youth participant exits a PAL facility
+GUI - is the acronym of Graphic User Interface  
 
-**Registered Youth** – a PAL facility user who has a record in the youth database
 
-**Registrant** – (see &quot;Registered Youth&quot;)
-
-**Youth Database –** where information about registered PAL facility users is stored
-
-**PAL** – Police Activity League
-
-**PALPIT** – Police Activity League Program Involvement Tracking Program
-
-## 1.5Document Conventions
 
 TBD – used to indicate information that still needs to be gathered from the customer
 
 Unknown – used to indicate an implementation option that has not yet been decided upon
 
-## 1.6Assumptions
+### *Server*
 
-It is assumed that all three PAL facilities will have browser based access to a central server.
+### *Client*
 
-# 2General Design Constraints
+## 1.6 Assumptions
 
-## 2.1Product Environment
+### *Server*
+It is assumed that the client and server are in the same local network, and the firewall is disabled or is integrated a rule that allow the flow of the packet.
+
+# 2 General Design Constraints
+
+## 2.1 Product Environment
+
+### *Server*
+The server's software will be put on a server machine, that have to be always active, to permit all the client to connect it and use his services.
+
 
 The PALPIT software will reside on the central server. Administrators will be able to access the information contained in the database, as well as to generate predefined reports from remote locations. [eeb: good clarification. This is also a section where you could mention that the system will be running in an open area that might be subject to rough treatment. Could also mention that at least one portion will be in an unsecured area.]
 
-## 2.2User Characteristics
+## 2.2 User Characteristics
+
+### *Server*
+In the server there are no different user, there is only one basic level that allow you to chat with every client online.
+
+
 
 **Youth** – Primary and Secondary students with varying computer proficiencies.
 
-**Volunteers –** Adults with computer knowledge sufficient to navigate a web-based interface. These users will be inputting and/or modifying youth registrant information only.
+**Volunteers** - Adults with computer knowledge sufficient to navigate a web-based interface. These users will be inputting and/or modifying youth registrant information only.
 
 **Administrators** – Adults with computer knowledge sufficient to navigate a web-based interface. These users will be accessing the information and generating reports to assess how the facilities are being used. They will also help the **youth** interact with the system.
 
-## 2.3Mandated Constraints
+## 2.3 Mandated Constraints
+
+### *Server*
+The only constraints that we encounter is the obbligation to use the protocol that the professor De Carli gave us, this to make all the communication protocol the same.
+
 
 There are no constraints at this time. However, there are still key decisions which need to be made (by the customer) which may impose constraints.
 
-## 2.4Potential System Evolution
+## 2.4 Potential System Evolution
+
+### *Server*
+At this moment the software of the server is done, but is very basic, so it can be updated in the following ways:
+* Add more security control
+* Product a log system to keep track of the userm movements.
+* Encrypt the message sent in network.
+
+
+
+
 
 The PALPIT software will most likely be updated in the following ways:
 
@@ -141,23 +159,23 @@ The PALPIT software will most likely be updated in the following ways:
 - .Add additional youth user information fields (stored in database)
 - .Produce new reports
 
-# 3Nonfunctional Requirements
+# 3 Nonfunctional Requirements
 
-There are no nonfunctional requirements at this time. [eeb: au contraire, usability, maintainability (talk to the pharmacy teams this semester if you don&#39;t think maintainability is a non-functional requirement),]
+There are no nonfunctional requirements at this time.
 
-## 3.1Operational Requirements
+## 3.1 Operational Requirements
 
 There are no operational requirements at this time.
 
 ## 3.2Performance Requirements
 
-No requirements for speed have been set forth.
-
-Memory requirements will be nominal (exact size is not known at this time) as the database will be holding information for approx. 200 people. Queries on this database should take no more than 4 seconds.
+### *Server*
+No requirements for speed have been set forth.  
+Memory requirements will be set by the size of the .csv file, that contains all the username and password of the users, but is a simple text file, so it is not relevant.  
 
 ## 3.3Security Requirements
 
-Only one type of user will have access to the database information. Therefore, only one user level is needed. The database will hold some confidential information about the youth who use the PAL facilities. Only users who are authorized to see the information should have access to it.
+There are no security requirements at this time.
 
 ## 3.4Safety Requirements
 
@@ -165,25 +183,26 @@ There are no safety requirements at this time.
 
 ## 3.5Legal Requirements
 
-(See security requirements)
+There are no legal requirements at this time.
 
-## 3.6Other Quality Attributes
-
-There are specific sections above for non-functional quality attributes such as security, performance, etc. In this section describe any other non-functional quality attributes such as portability, availability, etc.
-
-## 3.7Documentation and Training
+## 3.6 Documentation and Training
 
 The PALPIT documentation will consist of two major portions – one dealing with the administrator features, as well as one dealing with the youth features. Training will be provided to a select group of administrators on administrator _and_ youth features.
 
+## 3.7 External Interface
+
+### 3.7.1 User Interface
+
+#### *Server*
+The server have no a GUI, so the only thing you will se on the screen is which computer identify by the IP address is connect at the server.  
 
 
 
 
 
 
-## 3.8External Interface
 
-### 3.8.1User Interface
+
 
 Youth Interface-
 
@@ -205,284 +224,23 @@ The administrator interface will have a more professional appearance geared towa
 
 [eeb: good]
 
-### 3.8.2Software Interface
+### 3.7.2 Software Interface
 
-Unknown.
+#### *Server*
+See User Interface
 
-# 4System Features
 
-## 4.1Feature: Youth Database
+# 4 System Features
 
-The Youth Database will be where all of the information about the users of the PAL facilities will be kept. This section describes how new registrant information will be added to the database.
 
-### 4.1.1Description and Priority
 
-The New Registrant process allows a volunteer or administrator to add an unregistered youth to the database.
 
-Cost: medium
 
-Risk: low
 
-Value: high
 
-### 4.1.2Use-case: New Registrant
 
-**Actors:** volunteer or administrator
 
-**Description:** The use-case begins when an unregistered youth submits a registration form (hard copy). It is assumed that the administrator or volunteer has already completed the login process.
 
-Basic Path:
-
-1. The user will be prompted to enter all of the information found in Appendix A
-2. The user will enter _at least_ the information which is required to register
-3. The information will be recorded in the database and acknowledgement sent back to the user.
-
-Alternate Path:
-
-1. If step 2 is unsuccessful the user will see an error message on screen indicating what information still _needs_ to be provided
-2. The user will then be prompted to go back and fill out the remaining required items
-3. The user now returns to step 2 of the &quot;Basic Path&quot;
-
-### 4.1.3Additional Requirements
-
-N/A
-
-### 4.1.4Description and Priority
-
-The Youth Update process allows an administrator to modify or delete any information in a registrant&#39;s record.
-
-Cost: medium
-
-Risk: low
-
-Value: medium
-
-### 4.1.5Use-case: Youth Update
-
-**Actors:** administrator
-
-**Description:** The use-case begins when after the user has logged in to the administrator interface and wishes to update a registrant&#39;s information.
-
-Basic Path:
-
-1. The user will navigate to the youth update page
-2. The user will be prompted to enter the name of the person whom they will be updating information on
-3. The user will be presented with all information about the registrant stored in the database
-4. The user will be able to modify any of the information
-5. The user will enter changes into the appropriate fields
-6. The user will submit the changes
-7. The system will update the registrant&#39;s record
-
-### 4.1.6Additional Requirements
-
-The administrator will be able to add a new registrant or delete a current registrant.
-
-## 4.2Feature: Youth Tracking
-
-The Youth Tracking portion of the software will allow administrators to keep track of how much time registered participants use the facilities, as well as how they use the facilities (i.e. what activities they participate in).
-
-### 4.2.1Description and Priority
-
-The Youth Login Screen Access will allow an administrator or volunteer to bring up the youth login screen.
-
-### 4.2.2Use Case: Youth Login Screen Access
-
-**Actors:** administrators or volunteers
-
-**Description:** The use case begins when an administrator or volunteer wants to display the youth login screen.
-
-Basic Path:
-
-1. User opens a web browser and navigates to the web-interface of the system
-2. User will choose the &quot;Youth Login Screen&quot; option from a list
-3. System will prompt user for a username and password
-4. User will enter username and password
-5. System will verify username and password
-6. Youth Login Screen will be displayed
-
-Alternate Path:
-
-1. if step 5 fails user will be notified that the username or password entered was incorrect
-2. user will be prompted to reenter username and password
-3. return to step 5 of basic path
-4. if login fails 3 times user will be prompted to have their password sent to their email address
-
-### 4.2.3Additional Requirement
-
-N/A
-
-### 4.2.4Description and Priority
-
-The Youth Login will gather the following information:
-
-- .Identification information
-- .Time the user begins using the facility
-- .What activity the user will be using
-
-Cost: medium
-
-Risk: low
-
-Value: high
-
-### 4.2.5Use Case: Youth Login
-
-**Actors:** Registered Youth
-
-**Description:** The use-case begins when the registered youth enters the PAL facility to participate in an activity.
-
-Basic Path:
-
-1. User is prompted to provide identification to the system
-2. User provides identification to system
-3. System verifies the identification. If the id is verified the system will store the current time as the user&#39;s &quot;clock-in&quot; time.
-4. System prompts user to select which activity they will be participating in
-5. User selects which activity (or activities) they will be participating in
-6. System stores the activity and notifies user of successful login
-7. System returns to Youth Login Screen automatically
-
-Alternate Path:
-
-1. If step 3 is not completed this indicates that the system does not recognize the user&#39;s identification information. The system will prompt the user to retry inputting the identification information. If retry is successful use-case resumes at step 4 of &quot;Basic Path&quot;. If retry is unsuccessful use-case proceeds to step 2 of &quot;Alternate Path&quot;.
-2. System notifies the user that they are not recognized by the system and, therefore, will require assistance from an administrator.
-3. Return to step 7 of basic path
-
-### 4.2.6Additional Requirements
-
-N/A
-
-### 4.2.7Description and Priority
-
-The Youth Logout will store the time that the registered youth participant leaves the PAL facility.
-
-Cost: low
-
-Risk: low
-
-Value: high
-
-### 4.2.8Use-case: Youth Logout
-
-**Actors:** Registered youth who have been using a PAL facility
-
-**Description:** The use-case begins when the registered youth finishes participating in an activity at a PAL facility.
-
-Basic Path:
-
-1. System prompts user for identification information
-2. User provides identification information to system and indicates to the system that they are clocking out
-3. System verifies that the user is currently clocked-in
-4. Upon verification system stores the clock-out time and notifies user of successful clock-out
-5. System returns to Youth Login Screen automatically
-
-Alternate Path:
-
-1. If step 3 is not completed this indicates that the user never clocked in.
-2. System will prompt the user to select which activity (or activities) they have been using
-3. User selects which activity (or activities) they have been using
-4. System stores this information and notifies user of successful clock-in
-5. Return to step 5 of basic path
-
-### 4.2.9Additional Requirements
-
-If a user fails to clock out, the system will automatically store the closing time of the facility as the user&#39;s clock out time. Administrators will have the ability to edit clock-out times if needed. [eeb: good]
-
-### 4.2.10Description and Priority
-
-The administrator will be able to add comments to the record of a registered youth participant.
-
-Cost: low
-
-Risk: low
-
-Value: medium
-
-### 4.2.11Use-case: Administrator comments
-
-**Actors:** administrators
-
-**Description:** The use case begins after the administrator has logged in and wishes to add a comment to the record of a registered youth.
-
-Basic Path:
-
-1. The user will navigate the administrator user interface to the page that prompts the user to identify the registered youth they wish to comment on
-2. The user will identify the youth they intend to comment on
-3. The user will be prompted to enter the comment
-4. The user will enter and submit the comment
-5. The system will store the comment in the youth&#39;s record
-
-### 4.2.12Additional Requirements
-
-N/A
-
-## 4.3Feature: Administrator Access
-
-### 4.3.1Description and Priority
-
-The Administrator Access feature will provide a means to access the information stored in the database.
-
-Cost: low
-
-Risk:  medium
-
-Value: high
-
-### 4.3.2Use Case: Administrator or Volunteer Login
-
-**Actors:** administrators
-
-**Description:** The use case begins when the user decides to access the administrator or volunteer functions of the system.
-
-Basic Path:
-
-1. The user will open up the web-interface of the system in a web browser
-2. The user will navigate to the login page
-3. The system will prompt the user for user name and password
-4. User will provide user name and password
-5. System will verify user name and password
-6. The user will be presented with the options listed in Appendix B
-
-Alternate Path:
-
-1. If step 5 is unsuccessful the system will notify the user that the login attempt failed
-2. The user will be prompted to retry the login
-3. If the login attempt fails the user will be given one more opportunity to login in
-4. If step 3 fails the user will be prompted to have their password sent to their email address
-5. Upon approval by the user the password will be sent to the user&#39;s email address
-
-### 4.3.3Additional Requirements
-
-N/A
-
-## 4.4Feature: Database Search
-
-### 4.4.1Description and Priority
-
-The Database Search feature will allow administrators to search the database by any of the information fields in the youth registrant records.
-
-Cost: medium
-
-Risk: medium
-
-Value: medium
-
-### 4.4.2Use-case: Searching the Database
-
-TBD
-
-## 4.5Feature: Reports
-
-### 4.5.1Description and Priority
-
-The Report Generator will produce predefined and custom reports for administrators.
-
-### 4.5.2Use-case: Report Generator
-
-TBD
-
-### 4.5.3Additional Requirements
-
-N/A
 
 
 
