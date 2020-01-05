@@ -92,6 +92,6 @@ Liboni Andrea, Francesco Martino
 **__________________________________
 Customer**
 
-Professor De Carli Lorenzo 
+Professor De Carli Lorenzo
 **__________________________________
 Technical Lead**
