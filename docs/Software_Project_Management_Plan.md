@@ -126,8 +126,12 @@ The project will be a success if:
 Teacher: Provide to us a packs protocol that we have to use in our chat.
 Programmers (2): Programmers have to plan the project, and after write all the code.
 
-2.2	Project Communications
-This section contains the project communications plan. The communications plan describes how information is gathered and distributed.
+### 2.2	Project Communications
+
+**Server**
+For share our code and all the information we have used GitHub.
+For the verbal communication we simply talk in classroom.
+
 2.3	Technical Process
 This section describes the software development methodology or conventions the team agrees to live by. When following an organization standard process, this section will refer to the standard process and state any deviations that are planned for this project. In the absence of an organization standard process, this section will define planned phases, entry and exit criteria for each phase, major milestones, workflows, and other aspects of the proposed development process.
 
