@@ -168,7 +168,7 @@ Programmers (4): Programmers have to plan the project, and after write all the c
 
 ### 2.2	Project Communications
 
-**Server**
+**Server and Client**
 For share our code and all the information we have used GitHub.
 For the verbal communication we simply talk in classroom.
 
