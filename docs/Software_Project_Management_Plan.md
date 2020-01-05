@@ -96,12 +96,21 @@ Constraints:
 2.	The server must be on the school LAN for work.
 3.	The server must be ready by 12/11/2019.
 
-1.5	Schedule and Budget Summary
-The schedule summary shows start and end dates for high-level activities ending in major milestones or deliverables. Milestones are major events in the project life cycle that are used to measure progress.
+### 1.5	Schedule and Budget Summary
 
-A Gantt chart is an excellent tool for visualizing the start and stop dates of major scheduled activities.
+**Server**
+Schedule:
+29/10/2019 - Create the file system of the program and planned the job
+29/10/2019 - Add private message function and user vector
+29/10/2019 - End the main part of the software
+05/11/2019 - Testing
+05/11/2019 - Fixing the problems and bugs issue during the test
+05/11/2019 - End the software development
+20/11/2019 - Begin the documentation
 
-The budget summary shows total project cost, possibly broken down into separate categories for such things as salaries, equipment, travel, overhead, etc.
+Budget:
+There are not production costs, in terms of money. We have only spend an a amount of 4 lesson at school.
+3 (hours for lesson) * 4 (lessons) = 12 total hours
 
 1.6	Success Criteria
 Success criteria spell out what has to happen before the project can be considered a success. Having explicit success criteria serve two purposes. First, during a project success criteria help to focus attention on what is important. Second, at the conclusion of a project (project closure) success criteria are used to assess whether or not the goals and objectives of the project have been achieved.
