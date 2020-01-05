@@ -132,8 +132,12 @@ Programmers (2): Programmers have to plan the project, and after write all the c
 For share our code and all the information we have used GitHub.
 For the verbal communication we simply talk in classroom.
 
-2.3	Technical Process
-This section describes the software development methodology or conventions the team agrees to live by. When following an organization standard process, this section will refer to the standard process and state any deviations that are planned for this project. In the absence of an organization standard process, this section will define planned phases, entry and exit criteria for each phase, major milestones, workflows, and other aspects of the proposed development process.
+### 2.3	Technical Process
+
+**Server**
+For this project we have proceeded step by step.
+The first step was create a listening server. Successively every packet-request available stand for one steps.
+In this way we were sure that when we pass one step, the latter did not have bugs.
 
 2.4	Tools
 This section specifies the development tools the team will be using to perform their work.
