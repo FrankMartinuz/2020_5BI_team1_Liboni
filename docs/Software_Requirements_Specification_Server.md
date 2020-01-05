@@ -257,7 +257,7 @@ The broadcast message is sent from one user to all the online user, so the user 
 
 ## 4.3 Feature: Registration and Login
 
-This section describes how new user information will be sent to the server
+This section describes how to add a new user from the client and made a login.
 
 ### 4.3.1.1 Description: Registration
 
