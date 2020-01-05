@@ -62,6 +62,7 @@ The scope oh the server is manage some requests from the clients. This requests 
 
 ### 1.2	Goals and Objectives
 
+**Server**
 The overall goal is to give students a method to chat with their classmate. The app is expected to:
 
 * Manage the user identification through the sign in, log in and log out
@@ -74,6 +75,7 @@ The overall goal is to give students a method to chat with their classmate. The 
 
 ### 1.3	Project Deliverables
 
+**Server**
 The following items will be delivered to the customer on or before 6/1/2020:
 1.	Source code for both the client and server portions of the system.
 2.	User’s Guide
@@ -83,23 +85,16 @@ The following items will be delivered to the customer on or before 6/1/2020:
 6.	Business Model Canvas
 7.	Project Model Canvas
 
-1.4	Assumptions and Constraints
-Assumptions are conditions, usually outside the control of the project team, that are taken for granted. Project plans (i.e. estimates) typically depend on certain assumptions being true. Assumptions that turn out to be false, may jeopardize project success. In order to reduce project risk, the project manager may elect to validate certain assumptions as part of the risk management process.
-This is also a good place to document verbal promises or assurances given to you.
-Constraints are limits or restrictions on freedom. Projects may have technical as well as non-technical constraints. Priorities for schedule and budget can impose non-technical constraints on a project. Restrictions on programming language or delivery platform are examples of technical constraints that limit design and implementation options.
+### 1.4	Assumptions and Constraints
 
-Partial Example
+**Server**
 Assumptions:
-1.	The location API works on the test hardware.
-2.	A senior architect will be assigned to the project during the first 4 weeks.
-3.	The Unix server and RAID controller can be purchased and delivered by 7/1/2008.
-4.	Facilities will provide private office space for 3 outside contractors for the duration of the project.
+1.	The protocol will always work
+2.	The server will always send a feedback about the request. (Done or Failed)
 Constraints:
-1.	The software must run on a Windows Mobile 6 device.
-2.	The database must be open source.
-3.	The software must be ready by 1/1/2008.
-
-Note, the following is not a reasonable assumption for inclusion in this section: “We assume that our group has the necessary skills and knowledge needed to complete the project.” This might be something you are taking for granted, but it is not something worth documenting in the project plan. The assumptions you want to list here are those that are outside your control. Once the development team is established, it is their responsibility to possess or develop the skills and knowledge needed to complete the project. If there is a concern that the existing team doesn’t have the skills and knowledge needed to complete the project successfully, add it as a risk and develop a plan for mitigating the risk.
+1.	The server must follow the teacher protocol
+2.	The server must be on the school LAN for work.
+3.	The server must be ready by 12/11/2019.
 
 1.5	Schedule and Budget Summary
 The schedule summary shows start and end dates for high-level activities ending in major milestones or deliverables. Milestones are major events in the project life cycle that are used to measure progress.
