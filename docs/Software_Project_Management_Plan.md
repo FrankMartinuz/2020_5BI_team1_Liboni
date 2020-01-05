@@ -162,9 +162,9 @@ The project will be a success if work without bugs and problems with all the dif
 ## 2	Startup Plan
 ### 2.1	Team Organization
 
-**Server**
+**Server and Client**
 Teacher: Provide to us a packs protocol that we have to use in our chat.
-Programmers (2): Programmers have to plan the project, and after write all the code.
+Programmers (4): Programmers have to plan the project, and after write all the code.
 
 ### 2.2	Project Communications
 
