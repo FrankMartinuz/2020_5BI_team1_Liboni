@@ -1,7 +1,7 @@
 
 # Software Project Management Plan
 
-**Project Name** ServerChat
+**Project Name** ServerClientChat
 
 **Date of last change** 12/11/2019
 
@@ -201,3 +201,6 @@ The product acceptance plan defines what is acceptable in terms of product quali
 
 Partial Example
 The Verification and Valida
+
+
+SEI UN TARDO
