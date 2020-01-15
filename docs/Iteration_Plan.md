@@ -4,10 +4,18 @@
 
 ## Revision History
 
+_Legend:_
+
+| Work on | Names of members |
+| --- | --- |
+| Server | Andrea L. - Francesco M. |
+| Client | Riccardo R. - Matteo T. |
+
+
 | Author | Date | Description |
 | --- | --- | --- |
-| L. Armstrong | 7/4/2008 | Initial Release |
-|   |   |   |
+| Server | 10/01/2020  | Insert Iteration Plan Template |
+| Client | 15/01/2020 | Corrections to the formatting of the markdown file |
 
 ## 1. Objectives
 
