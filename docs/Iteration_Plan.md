@@ -55,7 +55,7 @@ Furthermore, we can include in this iteration:
 
 ## 3. Task Schedule
 
-[List the detailed tasks needed to carry out the objectives of this iteration.]
+Effort values goes from 1 to 10.
 
 **Server**
 
