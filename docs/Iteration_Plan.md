@@ -19,11 +19,12 @@ _Legend:_
 
 ## 1. Objectives
 
-_[Define the purpose and scope of the iteration]_ The purpose of this iteration is to create a working skeleton of the system. At the end of this iteration, homebuyers should be able to:
+**Client**
 
-- Create an account
-- Enter search criteria for a house (dummy records returned)
-- Ask to display the detail information on a house (dummy data returned)
+The purpose of this iteration is to create a working skeleton of the system. At the end of this iteration, customers should be able to:
+
+- Login in the chatting software
+- Sending and receiving message
 
 ## 2. Use Cases
 
