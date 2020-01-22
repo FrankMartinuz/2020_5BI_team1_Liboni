@@ -1,7 +1,5 @@
 # Iteration Plan
 
-### [Date]
-
 ## Revision History
 
 _Legend:_
@@ -19,11 +17,13 @@ _Legend:_
 
 ## 1. Objectives
 
-_[Define the purpose and scope of the iteration]_ The purpose of this iteration is to create a working skeleton of the system. At the end of this iteration, homebuyers should be able to:
+**Server**
 
-- Create an account
-- Enter search criteria for a house (dummy records returned)
-- Ask to display the detail information on a house (dummy data returned)
+The purpose at the end of the iterations is that the server will be able to manage the analyzed packet.
+Precisely at the end the server will able to:
+- read without errors the packet
+- do whatever the packets require
+- send a reply of OK/ERROR to user a house (dummy data returned)
 
 ## 2. Use Cases
 
