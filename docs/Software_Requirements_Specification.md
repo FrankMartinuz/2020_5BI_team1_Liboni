@@ -4,48 +4,7 @@ Police Activities League Program Involvement Tracking Project
 
 # *Table of Content*
 
-|1 Introduction|
-| --- |
-| 1.1 Overview|
-| 1.2 Goals and Objectives|
-| 1.3 Scope|
-| 1.4 Definitions|
-| 1.5 Document Conventions|
-| 1.6 Assumptions|
-| **2 General Design Constraints**|
-| 2.1 Product Environment|
-| 2.2 User Characteristics|
-| 2.3 Mandated Constraints|
-| 2.4 Potential System Evolution|
-| **3 Nonfunctional Requirements**|
-| 3.1 Operational Requirements|
-| 3.2 Performance Requirements|
-| 3.3 Security Requirements|
-| 3.4 Safety Requirements|
-| 3.5 Legal Requirements|
-| 3.6 External Interface|
-| 3.6.1 User Interface|
-| 3.6.2 Software Interface|
-| **4 System Features**|
-|**Server**|
-| 4.1 Feature: Registration and Login|
-| 4.1.1.1 Description: Registration|
-| 4.1.1.2 Use-case: Registration|
-| 4.1.2.1 Description: Login|
-| 4.1.2.2 Use-case: Login|
-| 4.2 Feature: Messaging|
-| 4.2.1.1 Description: Private Message|
-| 4.2.1.1 Use Case: Private Message|
-| 4.2.2.1 Description: Multicast Message|
-| 4.2.2.2 Use-case: Multicast Message|
-| 4.2.3.1 Description: Broadcast Message|
-| 4.2.3.2 Use-case: Broadcast Message|
-|**Client**|
-| 4.3 Feature: Registration and Login|
-| 4.3.1.1 Description: Registration|
-| 4.3.1.2 Use-case: Registration|
-| 4.3.2.1 Description: Login|
-| 4.3.2.2 Use-case: Login|
+
 
 # 1 Introduction
 
