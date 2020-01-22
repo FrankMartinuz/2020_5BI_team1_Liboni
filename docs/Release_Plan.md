@@ -65,7 +65,7 @@ Each column specifies estimated and actual values at the beginning of that itera
 
 |
 # Feature
- | EstimatedEffort | Actual Effort |
+| EstimatedEffort | Actual Effort |
 | --- | --- | --- |
 | feature |   |   |
 | feature |   |   |
@@ -74,8 +74,10 @@ Each column specifies estimated and actual values at the beginning of that itera
 
 
 # **Features we would like to add in the future**
+# Client
 
 | Feature | Effort Estimate |
 | --- | --- |
-| Ability to pause and restart game. | 10-15 hrs |
-| Pixel-perfect collision detection | 50-75 hrs |
+| Possibility to create group chat, for example if i want to send a message directly to my friends | 2-3 hrs |
+| Possibility to customize the client chat apllication (background, font and other things) | 4-5 hrs |
+| Possibility to customize your profle and the possibility to see the other user profile | 3-4 hrs |
