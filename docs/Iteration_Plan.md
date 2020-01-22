@@ -1,7 +1,5 @@
 # Iteration Plan
 
-### [Date]
-
 ## Revision History
 
 _Legend:_
@@ -18,6 +16,14 @@ _Legend:_
 | Client | 15/01/2020 | Corrections to the formatting of the markdown file |
 
 ## 1. Objectives
+
+**Server**
+
+The purpose at the end of the iterations is that the server will be able to manage the analyzed packet.
+Precisely at the end the server will able to:
+- read without errors the packet
+- do whatever the packets require
+- send a reply of OK/ERROR to user a house (dummy data returned)
 
 **Client**
 
