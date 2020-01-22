@@ -25,6 +25,13 @@ Precisely at the end the server will able to:
 - do whatever the packets require
 - send a reply of OK/ERROR to user a house (dummy data returned)
 
+**Client**
+
+The purpose of this iteration is to create a working skeleton of the system. At the end of this iteration, customers should be able to:
+
+- Login in the chatting software
+- Sending and receiving message
+
 ## 2. Use Cases
 
 _[Identify the use cases that define the functionality being implemented during this iteration. Some or all of the scenarios in the use case may be implemented.]_ The following use cases are involved in this iteration:
