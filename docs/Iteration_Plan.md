@@ -12,8 +12,7 @@ _Legend:_
 
 | Author | Date | Description |
 | --- | --- | --- |
-| Server | 10/01/2020  | Insert Iteration Plan Template |
-| Client | 15/01/2020 | Corrections to the formatting of the markdown file |
+| Server and Client | 29/10/2019 | Create the file system of the program and planned the job |
 
 ## 1. Objectives
 
