@@ -4,25 +4,23 @@ Release Plan
 
 Each column specifies estimated and actual values at the beginning of that iteration. For example, at the beginning of iteration 2 you know the actual size of the code integrated during iteration 1 and based on your experience during iteration 1 you can update the estimated size values for the subsequent iterations.
 
-|   | Iteration 1 | Iteration 2 | Iteration 3 | Iteration 4 | Iteration 5 |
-| --- | --- | --- | --- | --- | --- |
-| Iteration 1 | estimate | actual |   |   |   |
-| Iteration 2 | estimate | estimate | actual |   |   |
-| Iteration 3 | estimate | estimate | estimate | actual |   |
-| Iteration 4 | estimate | estimate | estimate | estimate | actual |
-| Total: | estimate | estimate | estimate | estimate | actual |
+| Client | Login | Registration | Start apllication | |
+| --- | --- | --- | --- | --- |
+| Login | 50 | 70 |   |
+| Registration | 100 | 100 | 310 |
+| Start apllication | 200 | 200 | 200 | 600 |
+| Total: | 350 | 370 | 510 | 600 |
 
 
 
 ## Effort Estimates (Minutes)
 
-|   | Iteration 1 | Iteration 2 | Iteration 3 | Iteration 4 | Iteration 5 |
-| --- | --- | --- | --- | --- | --- |
-| Iteration 1 | estimate | actual |   |   |   |
-| Iteration 2 | estimate | estimate | actual |   |   |
-| Iteration 3 | estimate | estimate | estimate | actual |   |
-| Iteration 4 | estimate | estimate | estimate | estimate | actual |
-| Total: | estimate | estimate | estimate | estimate | actual |
+| Client | Login | Registration | Start apllication | |
+| --- | --- | --- | --- | --- |
+| Login | 30m | 1h |   |
+| Registration | 45m | 45m | 2h |
+| Start apllication | 1h | 1h | 1h | 2h 30m
+| Total: | 2h 15m | 2h 45m | 3h | 2h 30m
 
 
 
