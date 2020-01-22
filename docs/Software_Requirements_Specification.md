@@ -1,12 +1,8 @@
+# Software Requirements Specification
+
 Police Activities League Program Involvement Tracking Project
 
-
-
-# *Table of Content*
-
-
-
-# 1 Introduction
+## 1 Introduction
 
 ## 1.1 Overview
 
