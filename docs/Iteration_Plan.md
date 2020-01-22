@@ -34,6 +34,20 @@ The purpose of this iteration is to create a working skeleton of the system. At 
 
 ## 2. Use Cases
 
+**Server**
+
+The following use cases are involved in the first iteration:
+- UC1: Initialize the server - now it is on
+- UC2: Create the system for the gesture of clients - now the server support more connections
+
+The other iteration include:
+- UC3: Gesture of determinate packs
+
+
+**Client**
+
+
+
 _[Identify the use cases that define the functionality being implemented during this iteration. Some or all of the scenarios in the use case may be implemented.]_ The following use cases are involved in this iteration:
 
 - UC2: Create Customer Account – The basic flow of this use case will be implemented.
