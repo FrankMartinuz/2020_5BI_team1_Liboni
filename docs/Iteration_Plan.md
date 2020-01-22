@@ -12,8 +12,7 @@ _Legend:_
 
 | Author | Date | Description |
 | --- | --- | --- |
-| Server | 10/01/2020  | Insert Iteration Plan Template |
-| Client | 15/01/2020 | Corrections to the formatting of the markdown file |
+| Server and Client | 29/10/2019 | Create the file system of the program and planned the job |
 
 ## 1. Objectives
 
@@ -46,12 +45,13 @@ The other iteration include:
 
 **Client**
 
+The following use cases are involved in this iteration:
 
+- UC1: Initialize the client – The client it's ready to work.
+- UC2: Comuticate to server – We can connect the client with the server to comunicate with other clients.
 
-_[Identify the use cases that define the functionality being implemented during this iteration. Some or all of the scenarios in the use case may be implemented.]_ The following use cases are involved in this iteration:
-
-- UC2: Create Customer Account – The basic flow of this use case will be implemented.
-- UC3: Display Home Info – The basic flow and a few of the alternate flows in this use case will be implemented.
+Furthermore, we can include in this iteration:
+- UC3: Graphical Interface - The client has become easier to use thanks to the graphical interface.
 
 ## 3. Task Schedule
 
