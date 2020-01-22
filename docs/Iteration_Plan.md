@@ -13,7 +13,7 @@ _Legend:_
 | Author | Date | Description |
 | --- | --- | --- |
 | Server | 10/01/2020  | Insert Iteration Plan Template |
-| Client | 29/10/2019 | Create the file system of the program and planned |
+| Client | 15/01/2020 | Corrections to the formatting of the markdown file |
 
 ## 1. Objectives
 
@@ -34,11 +34,19 @@ The purpose of this iteration is to create a working skeleton of the system. At 
 
 ## 2. Use Cases
 
-
 **Server**
+
+The following use cases are involved in the first iteration:
+- UC1: Initialize the server - now it is on
+- UC2: Create the system for the gesture of clients - now the server support more connections
+
+The other iteration include:
+- UC3: Gesture of determinate packs
 
 
 **Client**
+
+
 
 _[Identify the use cases that define the functionality being implemented during this iteration. Some or all of the scenarios in the use case may be implemented.]_ The following use cases are involved in this iteration:
 
