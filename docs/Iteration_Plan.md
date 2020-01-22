@@ -57,7 +57,19 @@ _[Identify the use cases that define the functionality being implemented during 
 
 [List the detailed tasks needed to carry out the objectives of this iteration.]
 
+**Server**
+
 | Task  | Effort Est. | Eff. Act. | Completion Est. | Completion Act. | Owner | Status |
 |:-:|---|---|---|---|:-:|:-:|
-|   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |
+| Initialize Server  |   |   |   |   |   |   |
+| Grant multiconnections  |   |   |   |   |   |   |
+| Info request  |   |   |   |   |   |   |
+| Registration  |   |   |   |   |   |   |
+| Login  |   |   |   |   |   |   |
+| Logout  |   |   |   |   |   |   |
+| Public Message  |   |   |   |   |   |   |
+| Private Message  |   |   |   |   |   |   |
+| Multicast Message  |   |   |   |   |   |   |
+| List  |   |   |   |   |   |   |
+
+**Client**
