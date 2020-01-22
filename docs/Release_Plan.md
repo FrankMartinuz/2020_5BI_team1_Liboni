@@ -11,6 +11,13 @@ Each column specifies estimated and actual values at the beginning of that itera
 | Start apllication | 200 | 200 | 200 | 600 |
 | Total: | 350 | 370 | 510 | 600 |
 
+| Server | Iteration 1 | Iteration 2 | Iteration 3 | |
+| --- | --- | --- | --- | --- |
+| Iteration 1 | estimate | actual |   |
+| Iteration 2 | estimate | estimate | actual |
+| Iteration 3 | estimate | estimate | estimate | actual |
+| Total: | estimate | estimate | estimate | actual |
+
 
 
 ## Effort Estimates (Minutes)
@@ -22,7 +29,12 @@ Each column specifies estimated and actual values at the beginning of that itera
 | Start apllication | 1h | 1h | 1h | 2h 30m
 | Total: | 2h 15m | 2h 45m | 3h | 2h 30m
 
-
+| Server | Iteration 1 | Iteration 2 | Iteration 3 | |
+| --- | --- | --- | --- | --- |
+| Iteration 1 | estimate | actual |   |
+| Iteration 2 | estimate | estimate | actual |
+| Iteration 3 | estimate | estimate | estimate | actual |
+| Total: | estimate | estimate | estimate | actual |
 
 ## Release #1: optional title for this release
 
