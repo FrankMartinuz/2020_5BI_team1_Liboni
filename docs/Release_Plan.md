@@ -6,7 +6,7 @@ Each column specifies estimated and actual values at the beginning of that itera
 
 | Client | Login | Registration | Start apllication | |
 | --- | --- | --- | --- | --- |
-| Login | 50 | 70 |   |
+| Login | 50 | 70 |  |
 | Registration | 100 | 100 | 310 |
 | Message | 200 | 200 | 200 | 600 |
 | **Total:** | 350 | 370 | 510 | 600 |
@@ -89,7 +89,7 @@ Each column specifies estimated and actual values at the beginning of that itera
 
 
 # **Features we would like to add in the future**
-# Client
+## Client
 
 | Feature | Effort Estimate |
 | --- | --- |
@@ -97,10 +97,10 @@ Each column specifies estimated and actual values at the beginning of that itera
 | Possibility to customize the client chat apllication (background, font and other things) | 4-5 hrs |
 | Possibility to customize your profle and the possibility to see the other user profile | 3-4 hrs |
 
-# Server
+## Server
 
 | Feature | Effort Estimate |
 | --- | --- |
-| Feature | Effort Estimate |
-| Feature | Effort Estimate |
-| Feature | Effort Estimate |
+| Add the user list request | 1h |
+| Add more security control | 1h 45m |
+| Put the user information inside a database | 2h |
