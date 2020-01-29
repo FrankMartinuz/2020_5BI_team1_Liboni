@@ -8,7 +8,7 @@ Each column specifies estimated and actual values at the beginning of that itera
 | --- | --- | --- | --- | --- |
 | Login | 50 | 70 |   |
 | Registration | 100 | 100 | 310 |
-| Start application | 200 | 200 | 200 | 600 |
+| Message | 200 | 200 | 200 | 600 |
 | **Total:** | 350 | 370 | 510 | 600 |
 
 | Server | Grant multiconnectons | Login | Private message ||
@@ -26,7 +26,7 @@ Each column specifies estimated and actual values at the beginning of that itera
 | --- | --- | --- | --- | --- |
 | Login | 30m | 1h |   |
 | Registration | 45m | 45m | 2h |
-| Start application | 1h | 1h | 1h | 2h 30m
+| Message | 1h | 1h | 1h | 2h 30m
 | **Total:** | 2h 15m | 2h 45m | 3h | 2h 30m
 
 | Server | Grant multiconnectons | Login | Private message | |
@@ -39,25 +39,25 @@ Each column specifies estimated and actual values at the beginning of that itera
 # **Client**
 
 ## Login
-| Feature | EstimatedEffort | Actual Effort |
+| Feature | Estimated Effort | Actual Effort |
 | --- | --- | --- |
-| Display Background | 15 hrs | 20 hrs |
-| Display defensive sprites | 25 hrs | 30 hrs |
-| Add sound to defensive sprites | 15 hrs | 15 hrs |
+| Account control | 10m | 20m |
+| Graphic login | 20m | 40m |
+| **Total:** | 30m | 1h |
 
 ## Registration
-| Feature | EstimatedEffort | Actual Effort |
+| Feature | Estimated Effort | Actual Effort |
 | --- | --- | --- |
-| Cannon Fire | 21 hrs |
-| Collision Detection | 17 hrs |
-| Save High Score | 6 hrs |
+| Registration | 20 m | 30m|
+| Graphic registration | 20 m | 30m|
+| **Total:** | 40m | 1h |
 
-## Start application
-| Feature | EstimatedEffort | Actual Effort |
+## Message
+| Feature | Estimated Effort | Actual Effort |
 | --- | --- | --- |
-| feature |   |
-| feature |   |
-| feature |   |
+| Private mesage | 20m | 30m |
+| Graphic message | 30m | 1h |
+| **Total:** | 50m | 1h 30m |
 
 # **Server**
 
@@ -93,3 +93,11 @@ Each column specifies estimated and actual values at the beginning of that itera
 | Possibility to create group chat, for example if i want to send a message directly to my friends | 2-3 hrs |
 | Possibility to customize the client chat apllication (background, font and other things) | 4-5 hrs |
 | Possibility to customize your profle and the possibility to see the other user profile | 3-4 hrs |
+
+# Server
+
+| Feature | Effort Estimate |
+| --- | --- |
+| Feature | Effort Estimate |
+| Feature | Effort Estimate |
+| Feature | Effort Estimate |
