@@ -59,7 +59,7 @@ Effort values goes from 1 to 10.
 
 **Server**
 
-| Task  | Effort Est. | Eff. Act. | Completion Est. | Completion Act. | Status |
+| Task  | Effort Est. | Eff. Act. | Completion Est. | Completion Act. |
 |:--:|---|---|---|---|:--:|
 | Initialize Server  | 4  | 6  | 24-10-2019 | 22-10-2019 |   
 | Grant multiconnections  | 7  | 7 | 24-10-2019 | 25-10-2019 |
@@ -73,3 +73,13 @@ Effort values goes from 1 to 10.
 | List  | 3 | 2 | 12-11-2019 | 12-11-2019 |
 
 **Client**
+
+| Task  | Effort Est. | Eff. Act. | Completion Est. | Completion Act. |
+|:--:|---|---|---|---|:--:|
+| Initialize Client  |  5 |  7 | 24-10-2019 | 22-10-2019 |   
+| Comunication to Server |  6 | 8 | 24-10-2019 | 25-10-2019 |
+| Registration  | 4 | 6 | 29-10-2019 | 31-10-2019 |
+| Login  | 6 | 7 | 29-10-2019 | 31-10-2019 |
+| Logout  | 5 | 6 | 29-10-2019 | 31-10-2019 |
+| Graphical Interface  | 6 | 7 | 5-11-2019 | 12-11-2019 |
+| Messages  | 6 | 8 | 5-11-2019 | 12-11-2019 |
