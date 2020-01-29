@@ -36,50 +36,52 @@ Each column specifies estimated and actual values at the beginning of that itera
 | Iteration 3 | estimate | estimate | estimate | actual |
 | Total: | estimate | estimate | estimate | actual |
 
-## Release #1: optional title for this release
+# **Client**
 
-### Iteration #1: optional title for this iteration
-
-|
-# Feature
-| EstimatedEffort | Actual Effort |
-| --- | --- |
+## Login
+| Feature | EstimatedEffort | Actual Effort |
+| --- | --- | --- |
 | Display Background | 15 hrs | 20 hrs |
 | Display defensive sprites | 25 hrs | 30 hrs |
 | Add sound to defensive sprites | 15 hrs | 15 hrs |
 
-
-
-### Iteration #2: optional title for this iteration
-
-# Feature
- | EstimatedEffort | Actual Effort |
-| --- | --- |
+## Registration
+| Feature | EstimatedEffort | Actual Effort |
+| --- | --- | --- |
 | Cannon Fire | 21 hrs |
 | Collision Detection | 17 hrs |
 | Save High Score | 6 hrs |
 
-## Release #2: optional title for this release
-
-### Iteration #3: optional title for this iteration
-# Feature
- | EstimatedEffort | Actual Effort |
-| --- | --- |
-| feature |   |
-| feature |   |
-| feature |   |
-
-
-
-### Iteration #4: optional title for this iteration
-
-|
-# Feature
-| EstimatedEffort | Actual Effort |
+## Start application
+| Feature | EstimatedEffort | Actual Effort |
 | --- | --- | --- |
-| feature |   |   |
-| feature |   |   |
-| feature |   |   |
+| feature |   |
+| feature |   |
+| feature |   |
+
+# **Server**
+
+## Titolo1
+| Feature | EstimatedEffort | Actual Effort |
+| --- | --- | --- |
+| Display Background | 15 hrs | 20 hrs |
+| Display defensive sprites | 25 hrs | 30 hrs |
+| Add sound to defensive sprites | 15 hrs | 15 hrs |
+
+## Titolo2
+| Feature | EstimatedEffort | Actual Effort |
+| --- | --- | --- |
+| Cannon Fire | 21 hrs |
+| Collision Detection | 17 hrs |
+| Save High Score | 6 hrs |
+
+## Titolo2
+| Feature | EstimatedEffort | Actual Effort |
+| --- | --- | --- |
+| feature |   |
+| feature |   |
+| feature |   |
+
 
 
 
