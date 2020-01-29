@@ -1,7 +1,12 @@
-Gruppo 1
+5BI Team1
 
-**Componenti:**
+**Collaborators**
 - Liboni Andrea
 - Martino Francesco
 - Tognella Matteo
 - Radosta Riccardo
+
+# Liboni Andrea
+# Martino Francesco
+# Tognella Matteo
+# Radosta Riccardo
