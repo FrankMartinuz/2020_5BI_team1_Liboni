@@ -61,26 +61,29 @@ Each column specifies estimated and actual values at the beginning of that itera
 
 # **Server**
 
-## Titolo1
-| Feature | EstimatedEffort | Actual Effort |
+## Grant multiconnectons
+| Feature | Estimated Effort | Actual Effort |
 | --- | --- | --- |
-| Display Background | 15 hrs | 20 hrs |
-| Display defensive sprites | 25 hrs | 30 hrs |
-| Add sound to defensive sprites | 15 hrs | 15 hrs |
+| Create array users | 05m | 05m |
+| Enable multi-threading | 10m | 25m |
+| Add the user to the user array | 15m | 15m |
+| **Total:** | 20m | 45m |
 
-## Titolo2
-| Feature | EstimatedEffort | Actual Effort |
+## Login
+| Feature | Estimated Effort | Actual Effort |
 | --- | --- | --- |
-| Cannon Fire | 21 hrs |
-| Collision Detection | 17 hrs |
-| Save High Score | 6 hrs |
+| Reciving the request from the client | 15m | 25m |
+| Converting into string the byte | 15m | 1h |
+| Reading from the file | 30m | 35m |
+| **Total:** | 1h | 2h |
 
-## Titolo2
-| Feature | EstimatedEffort | Actual Effort |
+## Private message
+| Feature | Estimated Effort | Actual Effort |
 | --- | --- | --- |
-| feature |   |
-| feature |   |
-| feature |   |
+| Enter in the function privateMessage | 20m | 1h |
+| Create the packet to send | 50m | 1h 15m |
+| Send the packet  | 35m | 1h 15m |
+| **Total:** | 1h 45m | 3h 30m |
 
 
 
