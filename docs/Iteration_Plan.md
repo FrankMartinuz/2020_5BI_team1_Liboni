@@ -59,17 +59,17 @@ Effort values goes from 1 to 10.
 
 **Server**
 
-| Task  | Effort Est. | Eff. Act. | Completion Est. | Completion Act. | Owner | Status |
-|:-:|---|---|---|---|:-:|:-:|
-| Initialize Server  |   |   |   |   |   |   |
-| Grant multiconnections  |   |   |   |   |   |   |
-| Info request  |   |   |   |   |   |   |
-| Registration  |   |   |   |   |   |   |
-| Login  |   |   |   |   |   |   |
-| Logout  |   |   |   |   |   |   |
-| Public Message  |   |   |   |   |   |   |
-| Private Message  |   |   |   |   |   |   |
-| Multicast Message  |   |   |   |   |   |   |
-| List  |   |   |   |   |   |   |
+| Task  | Effort Est. | Eff. Act. | Completion Est. | Completion Act. | Status |
+|:--:|---|---|---|---|:--:|
+| Initialize Server  | 4  | 6  | 24-10-2019 | 22-10-2019 |   
+| Grant multiconnections  | 7  | 7 | 24-10-2019 | 25-10-2019 |
+| Info request  | 2 | 6 | 29-10-2019 | 29-10-2019 |
+| Registration  | 5 | 7 | 29-10-2019 | 29-10-2019 |
+| Login  | 6 | 7 | 29-10-2019 | 31-10-2019 |
+| Logout  | 2 | 2 | 29-10-2019 | 29-10-2019 |
+| Public Message  | 7 | 6 | 5-11-2019 | 5-11-2019 |
+| Private Message  | 7 | 8 | 5-11-2019 | 12-11-2019 |
+| Multicast Message  | 7 | 8 | 12-11-2019 | 12-11-2019  |
+| List  | 3 | 2 | 12-11-2019 | 12-11-2019 |
 
 **Client**
