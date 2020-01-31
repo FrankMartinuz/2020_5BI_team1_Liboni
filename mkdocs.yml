@@ -8,6 +8,9 @@ nav:
     - 'Software Requirements Specification': 'Software_Requirements_Specification.md'
     - 'Software Project Management Plan': 'Software_Project_Management_Plan.md'
     - 'Release Plan': 'Release_Plan.md'
+    - 'Iteration Plan': 'Iteration_Plan.md'
+    - 'Project Success Criteria client': 'Project_Success_Criteria_client.md'
+    - 'Project Success Criteria server': 'Project_Success_Criteria_server.md'
 
 theme:
     name: readthedocs
