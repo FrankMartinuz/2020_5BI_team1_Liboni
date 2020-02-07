@@ -14,8 +14,9 @@ Martino Francesco
 **Document Control**
 
 Change History
+
 | Revision | Change Date | Description of changes |
-|:-:|:-:|:-:|		
+| --- | --- | --- |		
 | V1.0 | 22/10/2019 | Initial release |
 
 **Document Storage**
