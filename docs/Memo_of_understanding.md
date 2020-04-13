@@ -6,7 +6,8 @@ FOR
 
 ## 1. **Purpose**
 
-  The purpose of this Memorandum of Understanding (MOU) is to serve as a written understanding between Federal Communications Commission and the Federal Agency offering services.  This MOU documents the responsibilities of the principal organizations involved in the deployment of System Name being deployed.
+
+  The purpose of this Memorandum of Understanding is to sign an agreement between the agency tht develop the chat server software (composed by Andrea Liboni and Francesco Martino) and the agency that develop the chat client software (composed by Riccardo Radosta and Matteo Tognella).
 
 ## 2. **Objectives, Scope, and Major Activities**
 
