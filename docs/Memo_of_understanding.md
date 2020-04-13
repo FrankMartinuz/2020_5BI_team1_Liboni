@@ -6,12 +6,13 @@ FOR
 
 ## 1. **Purpose**
 
-
   The purpose of this Memorandum of Understanding is to sign an agreement between the agency tht develop the chat server software (composed by Andrea Liboni and Francesco Martino) and the agency that develop the chat client software (composed by Riccardo Radosta and Matteo Tognella).
 
 ## 2. **Objectives, Scope, and Major Activities**
 
-  * **Objective:** The objective of System being deployed is to provide integrated automation of the list system function(s) and who will use the system.  System being deployed will provide for "xyz" information to be made accessible to list groups within the FCC/other agency(ies) who will access data.
+  * **Objective:** The objective of System being deployed is to provide integrated automation of the list system function(s) and who will use the system.  System being deployed will provide for "xyz" information to be made accessible to list groups within the FCC/other agency(ies) who will access data.  
+**Roba nostra**  
+  The objective of the server software is to provide all the service that the client will need to provide at the final user the best experience, and be open to some future updates, also with advice by the client part.
 
   * **Scope:** The scope of System being deployed is to support provide brief statement of data being managed under this system.  System being deployed will provide support by integrating list any integration factors being considered by FCC.  Also list any goals of interconnecting the FCC system with Agency offering services.  System being deployed establishes the means and a standard for integrating existing, developing, and future system name and data.  System being deployed will provide seamless, integrated, automated information type information addressing all functional areas including list functional areas (e.g. FOD, IT, HRM, etc.).
 
