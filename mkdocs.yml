@@ -1,9 +1,9 @@
 site_name: 2020_5BI_Team1
 
 nav:
-    - 'Project Model Canvas': 'project-canvas.pdf'
+    - 'Project Model Canvas': 'docs\project-canvas.pdf'
     - 'Business Model Canvas': 'business-model-canvas.pdf'
-    - 'Project Charter 1': 'project_charter_client.md'
+    - 'Project Charter 1': 'docs\project_charter_client.md'
     - 'Project Charter 2': 'project_charter_server.md'
     - 'Software Requirements Specification': 'Software_Requirements_Specification.md'
     - 'Software Project Management Plan': 'Software_Project_Management_Plan.md'
