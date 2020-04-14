@@ -6,7 +6,7 @@ FOR
 
 ## 1. **Purpose**
 
-  The purpose of this Memorandum of Understanding is to sign an agreement between the agency tht develop the chat server software (composed by Andrea Liboni and Francesco Martino) and the agency that develop the chat client software (composed by Riccardo Radosta and Matteo Tognella).
+  The purpose of this Memorandum of Understanding is to sign an agreement between the agency that develop the chat server software (composed by Andrea Liboni and Francesco Martino) and the agency that develop the chat client software (composed by Riccardo Radosta and Matteo Tognella).
 
 ## 2. **Objectives, Scope, and Major Activities**
 
@@ -72,6 +72,14 @@ FOR
     5. The server will keep some logs about the network traffics.
 
   * **Client**
+    1. The client guarantees a continuos updating of the security protocols.
+
+    2. The client guarantees a continuos and efficent service.
+
+    3. The client insures that the software will not store any information about the user.
+
+    4. The software of the client will always remain free, but we will not share the source code.
+
 
 ## 4. **Services**
 
@@ -146,6 +154,16 @@ Signature: *Lorenzo De Carli*
 **Client Software**
 
 **Project Manager**   
-Printed Name:  
+Printed Name: *Riccardo Radosta*
 Date: *14/04/2020*  
-Signature:  
+Signature: *Riccardo Radosta*
+
+**Computer Security Officer**   
+Printed Name: *Matteo Tognella*  
+Date: *14/04/2020*  
+Signature: *Matteo Tognella*
+
+**Customer Service Representative**   
+Printed Name: *Lorenzo De Carli*  
+Date: *14/04/2020*  
+Signature: *Lorenzo De Carli*
