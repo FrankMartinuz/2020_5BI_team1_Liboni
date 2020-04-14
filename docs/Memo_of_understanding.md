@@ -2,7 +2,7 @@
 
 FOR
 
- **SYSTEM NAME BEING INTERCONNECTED/DEPOYED**
+ **SERVER AND CLIENT CHAT BEING INTERCONNECTED/DEPOYED**
 
 ## 1. **Purpose**
 
@@ -14,9 +14,13 @@ FOR
 **Roba nostra**  
   The objective of the server software is to provide all the service that the client will need to provide at the final user the best experience, and be open to some future updates, also with advice by the client part.
 
-  * **Scope:** The scope of System being deployed is to support provide brief statement of data being managed under this system.  System being deployed will provide support by integrating list any integration factors being considered by FCC.  Also list any goals of interconnecting the FCC system with Agency offering services.  System being deployed establishes the means and a standard for integrating existing, developing, and future system name and data.  System being deployed will provide seamless, integrated, automated information type information addressing all functional areas including list functional areas (e.g. FOD, IT, HRM, etc.).
+  * **Scope:** The scope of System being deployed is to support provide brief statement of data being managed under this system.  System being deployed will provide support by integrating list any integration factors being considered by FCC.  Also list any goals of interconnecting the FCC system with Agency offering services.  System being deployed establishes the means and a standard for integrating existing, developing, and future system name and data.  System being deployed will provide seamless, integrated, automated information type information addressing all functional areas including list functional areas (e.g. FOD, IT, HRM, etc.).  
+**Roba nostra**  
+  The scope of the server software is homologate all the communication using only one protocol to send and recive messagge inside a network, so all the client can make request only to one server.
 
-  * **Major Activities:** The major activities of this system will be to manage System being deployed in accordance with Federal Agency offering services requirements, FCC Computer Security Program Directive, FCC Instruction 1479.2 and other relevant FCC guidance.~~I~~~~DODI~~ ~~5000.2 principles.~~  The FCC ~~ject~~ system custodian will ensure that the system, designing and engineering concept, architectural and interface baselines and interoperability at all levels is consistent with FCC policies, including the System Development Life Cycle (SDLC) and change management processes.
+  * **Major Activities:** The major activities of this system will be to manage System being deployed in accordance with Federal Agency offering services requirements, FCC Computer Security Program Directive, FCC Instruction 1479.2 and other relevant FCC guidance.~~I~~~~DODI~~ ~~5000.2 principles.~~  The FCC ~~ject~~ system custodian will ensure that the system, designing and engineering concept, architectural and interface baselines and interoperability at all levels is consistent with FCC policies, including the System Development Life Cycle (SDLC) and change management processes.  
+**Roba nostra**  
+  The major activities of the server software are to provide chat services to the client that made request, and provide the most stable experience.
 
 ## 3. **Responsibilities**
 
@@ -56,6 +60,19 @@ FOR
 
     8. Monitor execution of the services provided by system name, including the infrastructure efforts required ensuring continued availability.
 
+  * **Server**
+    1. The server will provide all the services that are write and establishes in the chat protocol.
+
+    2. The server will be open to new request of updating, if necessary.
+
+    3. The server insures that the software will not store any information about the user.
+
+    4. The software of the server will always remain free, but we will not share the source code.
+
+    5. The server will keep some logs about the network traffics.
+
+  * **Client**
+
 ## 4. **Services**
 
   All services provided under this MOU shall be highlighted in this section, including but not limited to:
@@ -84,38 +101,51 @@ FOR
 
   - System security plan(s), if applicable;
 
-  - Systems risk analysis, computer security certification and accreditation, and security test and evaluation overview, if applicable.
+  - Systems risk analysis, computer security certification and accreditation, and security test and evaluation overview, if applicable.  
+**Roba Nostra**  
+  - Provide all the document about the architecture of the software;
+
+  - Description of the chat protocol;
+
+  - Description of the security tool used;
+
+  - Provide a 24/24 hours service form the server;
 
 ## 5. **Duration and Amendments of the MOU**
 
-  This MOU will be reviewed annually from the date signed.  The FCC System Program Manager will be responsible for this review.  
+  This MOU will be reviewed annually from the date signed.
 
 **MEMORANDUM OF UNDERSTANDING**
 
-**FOR**
+FOR
 
-**SYSTEM NAME BEING INTERCONNECTED/DEPOYED**
+**SERVER AND CLIENT CHAT BEING INTERCONNECTED/DEPOYED**
 
 ## **AGREEMENT/SIGNATURE PAGE**
 
 By signing this page, all parties agree to ensure compliance with applicable Federal and respective agency policies, mandates and instructions that will ensure the continued availability, confidentiality and integrity of information being process by or through this system.
 
-**Federal Communications Commission**
+**Server Software**
 
-**Project Manager** Printed Name___Date:____  
-Signature: ___  
-Telephone Number: _______ E-Mail Address:______
+**Project Manager**   
+Printed Name: *Andrea Liboni*  
+Date: *14/04/2020*   
+Signature: *Andrea Liboni*  
 
-**Customer Service Representative** Printed Name:_____ Date: ____  
-Signature: ____________  
-Telephone Number: ______ E-Mail Address:________
+**Computer Security Officer**   
+Printed Name: *Francesco Martino*  
+Date: *14/04/2020*  
+Signature: *Francesco Martino*
 
-**Computer Security Officer** Printed Name:_________ Date: _____  
-Signature: _________
-Telephone Number: _____ E-Mail Address:______
+**Customer Service Representative**   
+Printed Name: *Lorenzo De Carli*  
+Date: *14/04/2020*  
+Signature: *Lorenzo De Carli*
 
-**MOU Federal Agency Name**
 
-**Project Manager** Printed Name: ____Date:_______  
-Signature: ______________  
-Telephone Number: ___ E-Mail Address:______
+**Client Software**
+
+**Project Manager**   
+Printed Name:  
+Date: *14/04/2020*  
+Signature:  
