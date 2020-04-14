@@ -13,14 +13,17 @@ FOR
   * **Objective:** The objective of System being deployed is to provide integrated automation of the list system function(s) and who will use the system.  System being deployed will provide for "xyz" information to be made accessible to list groups within the FCC/other agency(ies) who will access data.  
 **Roba nostra**  
   The objective of the server software is to provide all the service that the client will need to provide at the final user the best experience, and be open to some future updates, also with advice by the client part.
+  The objective of the client is be open to some future updates, also with advice by the server part to guarantees to the user a realy good experience.
 
   * **Scope:** The scope of System being deployed is to support provide brief statement of data being managed under this system.  System being deployed will provide support by integrating list any integration factors being considered by FCC.  Also list any goals of interconnecting the FCC system with Agency offering services.  System being deployed establishes the means and a standard for integrating existing, developing, and future system name and data.  System being deployed will provide seamless, integrated, automated information type information addressing all functional areas including list functional areas (e.g. FOD, IT, HRM, etc.).  
 **Roba nostra**  
   The scope of the server software is homologate all the communication using only one protocol to send and recive messagge inside a network, so all the client can make request only to one server.
+  The scope of the client is to give to the user a secure messaging app realy easy to use.
 
   * **Major Activities:** The major activities of this system will be to manage System being deployed in accordance with Federal Agency offering services requirements, FCC Computer Security Program Directive, FCC Instruction 1479.2 and other relevant FCC guidance.~~I~~~~DODI~~ ~~5000.2 principles.~~  The FCC ~~ject~~ system custodian will ensure that the system, designing and engineering concept, architectural and interface baselines and interoperability at all levels is consistent with FCC policies, including the System Development Life Cycle (SDLC) and change management processes.  
 **Roba nostra**  
   The major activities of the server software are to provide chat services to the client that made request, and provide the most stable experience.
+  The major activities of the client softwere are to make request to the server securely. 
 
 ## 3. **Responsibilities**
 
