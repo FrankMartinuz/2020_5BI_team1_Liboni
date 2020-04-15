@@ -11,6 +11,7 @@ nav:
     - 'Iteration Plan': 'Iteration_Plan.md'
     - 'Project Success Criteria client': 'Project_Success_Criteria_client.md'
     - 'Project Success Criteria server': 'Project_Success_Criteria_server.md'
+    - 'Memo Of Understanding': 'Memo_of_understanding.md'
 
 theme:
     name: readthedocs
