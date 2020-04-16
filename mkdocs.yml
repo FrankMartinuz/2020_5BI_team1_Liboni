@@ -12,6 +12,7 @@ nav:
     - 'Project Success Criteria client': 'Project_Success_Criteria_client.md'
     - 'Project Success Criteria server': 'Project_Success_Criteria_server.md'
     - 'Memo Of Understanding': 'Memo_of_understanding.md'
+    - 'Test Plan': 'Test_Plan.md'
 
 theme:
     name: readthedocs

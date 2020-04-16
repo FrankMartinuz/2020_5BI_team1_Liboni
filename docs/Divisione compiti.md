@@ -6,7 +6,7 @@
 |Project Success Criteria Client|Radosta, Tognella|Fatto|
 |Memo of uderstanding| Liboni, Radosta|Fatto|
 |Architecture, design and coding| Tognella, Martino||
-|Test plan| Liboni, Radosta||
+|Test plan| Liboni, Radosta|Fatto|
 |Test case specification| Liboni, Radosta||
 |User guide Server|Liboni, Martino||
 |User guide Client|Radosta, Tognella||
