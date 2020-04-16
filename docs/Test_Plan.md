@@ -20,7 +20,7 @@ Are listened here the incident discovered while performing various tests on the 
 | --- | --- |
 | **Description** | To see if the user can see in the interface of the client a table with all the user that are active in that moment |
 | **Originator** | Riccardo Radosta |
-| **Discover Date** | gg-mm-2019 |
+| **Discover Date** | 24-10-2019 |
 | **Severity** | Medium |
 | **Steps Required to Produce Incident** | 1. Go to the page of the login. 2. Click on the bottom of the login. |
 | **Cause** | Incident was caused by the code of the software. |
