@@ -1,37 +1,28 @@
-Roo Balance Test Case Specification
+# **Test Case Specification**
 
-# Test Case Specification
-
-# For
-
-# Team 1
-
-December 7, 2010
+April 17, 2020
 
 Prepared by:
 
-Casey Droneburg
+Group 1
 
-# **Table of Contents**
+# 1. Introduction
 
-**1 Introduction 4**
+This document is a Specification of all the test that we have made during our project, and in this document you can find the server test and also the client test.
 
-**2 Test Cases: iOS Application 4**
+# 2. Test Cases: Server chat
 
-**3 Test Cases: Proxy Server 6**
+**Tabella template**
 
-Revision History
-
-| **Version** | **Date** | **Name** | **Description** |
-| --- | --- | --- | --- |
-| 1 | 11/11/10 | Casey Droneburg | Initial Document |
-| 2 | 12/07/10 | Casey Droneburg | Updated test case numbers to eliminate typographical errors; added test case 3.2 (proxy server: incorrect password) which was left out |
-
-# 1Introduction
-
-This document provides the test cases to be carried out for the Roo Balance Application. Each item to be tested is represented by an individual test case. Each case details the input and expected outputs.
-
-# 2Test Cases: iOS Application
+| Test ID | 0.0 |
+| --- | --- |
+| **Title** |  |
+| **Feature** |  |
+| **Objective** |  |
+| **Setup** |  |
+| **Test Data** |  |
+| **Test Actions** |  |
+| **Expected Results** |  |
 
 | Test ID | 2.1 |
 | --- | --- |
@@ -84,7 +75,19 @@ This document provides the test cases to be carried out for the Roo Balance Appl
 | Test Actions | 1. Start Roo Balance application2. Select View Account option3. Select View Transactions option |
 | Expected Results | System displays recent transactions legibly with option to logoff. Recent transactions should match that found on umkc.ManageMyID.com. |
 
-# 3Test Cases: Proxy Server
+# 3. Test Cases: Client chat
+
+**Tabella template**
+
+| Test ID | 0.0 |
+| --- | --- |
+| **Title** |  |
+| **Feature** |  |
+| **Objective** |  |
+| **Setup** |  |
+| **Test Data** |  |
+| **Test Actions** |  |
+| **Expected Results** |  |
 
 | Test ID | 3.1 |
 | --- | --- |
@@ -125,5 +128,3 @@ This document provides the test cases to be carried out for the Roo Balance Appl
 | Test Data | Login informationUser Email = [cdbpc@umkc.edu](mailto:cdbpc@umkc.edu)Password = r00bucks |
 | Test Actions | 1. Go to proxy server http site defined in setup.2. Enter login information as defined in test data3. Press submit4. View page source. |
 | Expected Results | Recent transactions are displayed and numbers match those on umkC.ManageMyID.com. |
-
-Last Modified: 12/07/2010 Page 8 of 8
