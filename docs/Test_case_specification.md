@@ -12,17 +12,37 @@ This document is a Specification of all the test that we have made during our pr
 
 # 2. Test Cases: Server chat
 
-**Tabella template**
-
-| Test ID | 0.0 |
+| Test ID | 1.1 |
 | --- | --- |
-| **Title** |  |
-| **Feature** |  |
-| **Objective** |  |
-| **Setup** |  |
-| **Test Data** |  |
-| **Test Actions** |  |
-| **Expected Results** |  |
+| **Title** | Test login |
+| **Feature** | Login inside the server chat from a client. |
+| **Objective** | Test the function that manage the login. |
+| **Setup** | The chat server must be turend on and use a client from a terminal. |
+| **Test Data** | User information: *username* and *password*. |
+| **Test Actions** | 1. Open the client and try to login. 2. Insert the correct login information and send it. 3. Wait for a response from the server.|
+| **Expected Results** | The server have to send an OK message if the user information are correct, and if it is not, must send an ERROR message (see the chat protocol). |
+
+| Test ID | 2.4 |
+| --- | --- |
+| **Title** | Test sending message |
+| **Feature** | Send a message from a client to another. |
+| **Objective** | Test the function that manage the sending of message. |
+| **Setup** | The chat server must be turend on and two other client must be logged in the server. |
+| **Test Data** | User information: *username*; message data: *text of the message*. |
+| **Test Actions** | 1. From the client 1 select the user that you want to contact. 2. Write the text of the message. 3. Send the message. |
+| **Expected Results** | The server have to recive the message from client 1, and send at the terminal an OK message, after that the server have to find the right socket associated with the recipient username, and forward it correctly. |
+
+| Test ID | 2.5 |
+| --- | --- |
+| **Title** | Test sending broadcast message |
+| **Feature** | Send a message from a client to all the online client. |
+| **Objective** | Test the function that manage the broadcast sending of message. |
+| **Setup** | The chat server must be turend on and two or more other client must be logged in the server. |
+| **Test Data** | User information: *username*; message data: *text of the message*. |
+| **Test Actions** | 1. From the client 1 select the broadcast mode of message. 2. Write the text of the message. 3. Send the message. |
+| **Expected Results** | The server have to recive the message from client 1, and send at the terminal an OK message, after that the server have to find the socket of all the online client, and foreward the message to all of them. |
+
+**Esempi loro**
 
 | Test ID | 2.1 |
 | --- | --- |
