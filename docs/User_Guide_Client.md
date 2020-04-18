@@ -1,6 +1,6 @@
 # **Client User Guide**
 
-# **Team 1 - Client**
+ **Team 1 - Client**
 
 April 17, 2020
 
@@ -10,23 +10,23 @@ Riccardo Radosta
 
 Matteo Tognella
 
-# Contents
+## **Contents**
 
-1 Introduction
+1. Introduction
 
-2 Registration
+2. Registration
 
-3 Login
+3. Login
 
-4 Private Message
+4. Private Message
 
-5 Broadcast Message
+5. Broadcast Message
 
-# Introduction
+## 1. Introduction
 
 The client application allows users a simple interface to access their account from a PC. This document will provide instructions for using the application to send private message, broadcast message, do the login and do a registration for a new user.
 
-# Registration
+## 2. Registration
 
 1. Tap the RooBucks icon in your PC. The login screen will be brought up.
 
@@ -38,7 +38,7 @@ The client application allows users a simple interface to access their account f
 
 5. The interface  to send message will be displayed.
 
-# Login
+## 3. Login
 
 1. Tap the RooBucks icon in your PC. The login screen will be brought up.
 
@@ -48,7 +48,7 @@ The client application allows users a simple interface to access their account f
 
 5. The interface  to send message will be displayed.
 
-# Private Message
+## 4. Private Message
 
 1. When you are on the chat interface, click on the "Private message box"
 
@@ -56,7 +56,7 @@ The client application allows users a simple interface to access their account f
 
 3. Tap the "Send" button
 
-# Broadcast Message
+## 5. Broadcast Message
 
 1. When you are on the chat interface, click on the "Broadcast message box"
 
