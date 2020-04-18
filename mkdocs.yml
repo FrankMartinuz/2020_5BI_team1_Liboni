@@ -13,6 +13,7 @@ nav:
     - 'Project Success Criteria server': 'Project_Success_Criteria_server.md'
     - 'Memo Of Understanding': 'Memo_of_understanding.md'
     - 'Test Plan': 'Test_Plan.md'
+    - 'Test Case Specification': 'Test_case_specification.md'
 
 theme:
     name: readthedocs
