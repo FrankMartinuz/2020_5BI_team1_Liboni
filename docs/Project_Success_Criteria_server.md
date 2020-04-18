@@ -25,7 +25,7 @@ Don't allow to an user to do the login twice or more times. Fixed with a vector 
 The server have all the document correctly done, with all the information that can be useful.
 
 
-Signatures
+## **Signatures**
 
 _______________________________
 ITI Marconi, Project Sponsor
