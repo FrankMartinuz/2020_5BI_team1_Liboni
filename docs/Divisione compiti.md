@@ -9,5 +9,5 @@
 | Test plan | Liboni, Radosta  |Fatto |
 | Test case specification | Liboni, Radosta | Fatto |
 | User guide Server | Liboni, Martino ||
-| User guide Client | Radosta ||
+| User guide Client | Radosta | Fatto |
 | System requiment document | Liboni, Martino ||
