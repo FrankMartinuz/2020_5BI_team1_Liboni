@@ -2,16 +2,16 @@
 
 ## Revision History
 
-_Legend:_
+**Legend**
 
 | Work on | Names of members |
-| --- | --- |
+| --- |:---:|
 | Server | Andrea L. - Francesco M. |
 | Client | Riccardo R. - Matteo T. |
 
 
 | Author | Date | Description |
-| --- | --- | --- |
+| --- |:---:| --- |
 | Server and Client | 29/10/2019 | Create the file system of the program and planned the job |
 
 ## 1. Objectives
@@ -60,7 +60,7 @@ Effort values goes from 1 to 10.
 **Server**
 
 | Task  | Effort Est. | Eff. Act. | Completion Est. | Completion Act. |
-|:--:|---|---|---|:--:|
+|---|:--:|:--:|:--:|:--:|
 | Initialize Server  | 4  | 6  | 24-10-2019 | 22-10-2019 |   
 | Grant multiconnections  | 7  | 7 | 24-10-2019 | 25-10-2019 |
 | Info request  | 2 | 6 | 29-10-2019 | 29-10-2019 |
@@ -75,7 +75,7 @@ Effort values goes from 1 to 10.
 **Client**
 
 | Task  | Effort Est. | Eff. Act. | Completion Est. | Completion Act. |
-|:--:|---|---|---|:--:|
+|---|:--:|:--:|:--:|:--:|
 | Initialize Client  |  5 |  7 | 24-10-2019 | 22-10-2019 |   
 | Comunication to Server |  6 | 8 | 24-10-2019 | 25-10-2019 |
 | Registration  | 4 | 6 | 29-10-2019 | 31-10-2019 |
