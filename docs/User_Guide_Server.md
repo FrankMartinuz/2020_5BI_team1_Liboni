@@ -1,89 +1,71 @@
-Roo Balance User Guide
+# **Server User Guide**
 
-# **Roo Balance User Guide**
+**Team 1 - Server**
 
-# **Team 1**
-
-December 2, 2010
+April 17, 2020
 
 **Team Members**
 
-Cuong Cu
+Andrea Liboni
 
-Casey Droneburg
-
-Kyle Emmons
-
-David Haney
+Francesco Martino
 
 # Contents
 
-Contents 2
+1. Introduction
 
-1 Introduction 3
+2. Quick Start Guide
 
-2 Quick Start Guide 3
+3. System Requirements
 
-3 System Requirements 5
+4. Main Scenarios of Use
 
-4 Main Scenarios of Use 5
+5. Troubleshooting
 
-5 Troubleshooting 6
+## 1. Introduction
 
-# 1Introduction
+  The server chat software allow users to send text message between all type of clients(in the same network) that are using the chat protocol made by prof. De Carli.  
+  In this document there are not so much things to say, because the client does not have an user interface like the client, but have only a command line output.
 
-The Roo Balance application allows users a simple interface to access their Roo Bucks account information from a mobile device. This document will provide instructions for using the application to view balance, see recent transactions, and view merchant locations that accept Roo Bucks.
+## 2. Quick Start Guide
 
-# 2Quick Start Guide
+1. Make sure that you have installed Python on your server/PC.
 
-1. Tap the RooBucks icon in your device menu. The login screen will be brought up.
+2. Set the right IP address for you server, by opening the main.py with an text editor, and modify the 273 line of the file.
 
-![](RackMultipart20200417-4-malrcu_html_81eda14c9e7bb033.png)
- ![](RackMultipart20200417-4-malrcu_html_e049affe59ccaed2.png)
+3. Open the main.py file and launch the server.
 
-1. Enter your E-Mail and Password.
+## 3. System Requirements
 
-![](RackMultipart20200417-4-malrcu_html_3aa4d32b669c3272.png)
+To run the server software you will need the last Python version installed in your server/PC.
 
-1. Tap the Login button.
-2. Current Roo Bucks balance will be displayed.
+## 4. Main Scenarios of Use
 
-![](RackMultipart20200417-4-malrcu_html_fd8eb70095898b3e.png)
+  **4.1. View the user connected**
 
-# 3System Requirements
+  1. Open the main.py file.
+  2. Wait for the startup of the server.
+  3. By now when a user connect to your server you will see him IP address and name.
 
-The Roo Bucks application should be installed on an iOS-compatible device. Refer to the System Documentation for instructions on installation.
+  **4.2 View user credentials**
 
-# 4Main Scenarios of Use
+  1. In the root folder of the server software.
+  2. Open the User folder.
+  3. Open the user.csv file with an text editor (or Excel).
 
-## 4.1View Recent Transactions
+## 5. Troubleshooting
 
-1. Tap the RooBucks icon in your device menu. The login screen will be brought up.
-2. Enter your E-Mail and Password.
-3. Tap the Login button.
-4. T ![](RackMultipart20200417-4-malrcu_html_5228f27a13fa1071.jpg)
- ap &#39;History&#39; at the bottom on the screen.
+  **5.1 Network error**
+  - Make sure that the IP address that you are using is valid inside your network.
+  - Make sure that the application port that you are using is not used by other application.
+  - Reboot the server software.
+  - Reboot the server/PC.
+  - Reboot your router.
 
-1. R ![](RackMultipart20200417-4-malrcu_html_2b6a5f96c04671a5.png)
- ecent Roo Bucks purchases will be displayed.
-
-## 4.2View Merchant Locations
-
-1. Tap the RooBucks icon in your device menu. The login screen will be brought up.
-2. Enter your E-Mail and Password.
-3. Tap the Login button.
-4. T ![](RackMultipart20200417-4-malrcu_html_2357ef52e6adc74a.jpg)
- ap &#39;Locations&#39; at the bottom on the screen.
-
-1. M ![](RackMultipart20200417-4-malrcu_html_e0e49df10870d6db.png)
- erchant locations accepting Roo Bucks will be displayed.
-
-# 5Troubleshooting
-
-## 5.1Missing or Incorrect Password or E-Mail
-
-A message will be displayed in the event incorrect login information is entered. Try again with proper credentials to access the UMKC.ManageMyID.com website. If trouble is encountered, retrieve proper login information directly from the ManageMyID website.
-
-![](RackMultipart20200417-4-malrcu_html_ddc01d890e1f2a69.png)
-
-12/2/2010 Page 8 of 8
+  **5.2 Client unreachable**
+  - Make sure that the client is inside your network.
+  - Check the firewall of the client, it can block some packet.
+  - Make sure that the client si using the same protocol as the server.
+  - Reboot the client.
+  - Reboot the server/PC.
+  - Reboot your router.

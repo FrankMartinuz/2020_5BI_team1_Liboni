@@ -270,7 +270,7 @@ if __name__ == "__main__":
     if boolD:
         print("Inizio programma")
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    sock.bind(("172.16.20.143", 2000))
+    sock.bind(("localhost", 2000))
     print("Per collegarsi usare il seguente nome e specificare la porta 2000:" + socket.gethostname())
     sock.listen(4)
     connections = []
