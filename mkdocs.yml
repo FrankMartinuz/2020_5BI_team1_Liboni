@@ -14,6 +14,8 @@ nav:
     - 'Memo Of Understanding': 'Memo_of_understanding.md'
     - 'Test Plan': 'Test_Plan.md'
     - 'Test Case Specification': 'Test_case_specification.md'
+    - 'User Guide client': 'User_Guide_Client.md'
+    - 'User Guide server': 'User_Guide_Server.md'
 
 theme:
     name: readthedocs

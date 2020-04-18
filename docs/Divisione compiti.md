@@ -8,6 +8,6 @@
 | Architecture, design and coding | Liboni, Radosta, Martino ||
 | Test plan | Liboni, Radosta  |Fatto |
 | Test case specification | Liboni, Radosta | Fatto |
-| User guide Server | Liboni, Martino ||
+| User guide Server | Liboni, Martino | Fatto |
 | User guide Client | Radosta | Fatto |
 | System requiment document | Liboni, Martino ||
