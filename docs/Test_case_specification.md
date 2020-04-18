@@ -44,34 +44,33 @@ This document is a Specification of all the test that we have made during our pr
 
 # 3. Test Cases: Client chat
 
-**Tabella template**
 
 | Test ID | 1.1 |
 | --- | --- |
-| **Title** | Login  |
-| **Feature** | Login to the server from the client application |
-| **Objective** | Confirm that the login protocol run correctly |
-| **Setup** | The client must sent a request of login to the server and must wait an answer  |
-| **Test Data** | Username and password |
-| **Test Actions** | Open the client application, insert the username and password and click "login" |
-| **Expected Results** | After the click on the "login" button, we must be reindered on the chat interface |
+| **Title** | Login |
+| **Feature** | Login to the server from the client application. |
+| **Objective** | Confirm that the login protocol run correctly. |
+| **Setup** | The client must sent a request of login to the server and must wait an answer. |
+| **Test Data** | *username* and *password* |
+| **Test Actions** | Open the client application, insert the username and password and click "login". |
+| **Expected Results** | After the click on the "login" button, we must be reindered on the chat interface. |
 
 | Test ID | 1.2 |
 | --- | --- |
-| **Title** |  Registration with valid username and password  |
-| **Feature** | Registration to the server from the client application |
-| **Objective** | Confirm that the registration protocol run correctly |
-| **Setup** | The client must sent a request of registration to the server and must wait an answer  |
-| **Test Data** | Valid Username and password |
-| **Test Actions** | Open the client application click registration, a new page must appear and insert the username and password and click "Send" |
-| **Expected Results** | After the click on the "registration" button, we must be reindered on the registration page, and after the click on the "send" button we must be reindered on the chat interface |
+| **Title** |  Registration with valid username and password.  |
+| **Feature** | Registration to the server from the client application. |
+| **Objective** | Confirm that the registration protocol run correctly. |
+| **Setup** | The client must sent a request of registration to the server and must wait an answer. |
+| **Test Data** | Valid *username* and *password*. |
+| **Test Actions** | Open the client application click registration, a new page must appear and insert the username and password and click "Send". |
+| **Expected Results** | After the click on the "registration" button, we must be reindered on the registration page, and after the click on the "send" button we must be reindered on the chat interface. |
 
 | Test ID | 1.3 |
 | --- | --- |
-| **Title** |  Registration with invalid username and password  |
-| **Feature** | Registration to the server from the client application |
-| **Objective** | Confirm that the registration protocol run correctly |
-| **Setup** | The client must sent a request of registration to the server and must wait an answer  |
-| **Test Data** | Invalid Username and password |
-| **Test Actions** | Open the client application click registration, a new page must appear and insert the username and password and click "Send" |
-| **Expected Results** | After the click on the "registration" button, we must be reindered on the registration page, and after the click on the "send" button on the page must apper an error message |
+| **Title** |  Registration with invalid username and password.  |
+| **Feature** | Registration to the server from the client application. |
+| **Objective** | Confirm that the registration protocol run correctly. |
+| **Setup** | The client must sent a request of registration to the server and must wait an answer. |
+| **Test Data** | Invalid *username* and *password*. |
+| **Test Actions** | Open the client application click registration, a new page must appear and insert the username and password and click "Send". |
+| **Expected Results** | After the click on the "registration" button, we must be reindered on the registration page, and after the click on the "send" button on the page must apper an error message. |
