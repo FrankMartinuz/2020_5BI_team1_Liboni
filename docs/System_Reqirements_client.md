@@ -16,9 +16,9 @@ Matteo Tognella
 
 1. Introduction
 
-2. Setup Proxy Server
+2. Install Python
 
-3. Access iOS Application Code
+3. Install client chat application
 
 4. Install on Simulator or Device
 
@@ -32,26 +32,22 @@ Matteo Tognella
 
 ## 1. Introduction
 
-The Roo Balance application allows users a simple way to manage their Roo Bucks account information from a mobile device. This document will provide instructions for accessing the application code and installing it into a simulator or compatible device.
+The chat client is a software that allows you to connect to a server that are using the chat protocol made by prof. De Carli.  
+This protocol allows you to chat with other client chat that are using the same protocol.  
+This document will explain you how to setup your device to use this sofware.
 
-## 2. Setup Proxy Server
+## 2. Setup the client chat software
 
-A Unix/Linux based server with internet connectivity is required for the web proxy. Proxy server code can be obtained in the SVN repository located at: [http://134.193.128.7/svn/cs451/branches/team1/proxy\_code/roobucks.pl](http://134.193.128.7/svn/cs451/branches/team1/proxy_code/roobucks.pl)
+  1. Before begin using this software ou will need to install the last version of python, and you can download it from this [link](https://www.python.org/downloads/).
+  2. After you have download it, you need to open and install it, by following the instructions in the installer file.
+  3. Now you need to check the installation, and to do that, you can use this command: python --version.
 
-1. Obtain the current Perl distrubution
-  1. Install perl modules from CPAN
-    1. LWP::UserAgent
-    2. HTTP::Request::Common
-2. Obtain the current Apache distribution
-  1. Configure apache with https support
-    1. Configure apache with cgi support
-      1. Place perl proxy software in the designated cgi-bin directory
+## 3. Install client chat application
 
-## 3. Access iOS Application Code
-
-Access to the internet and the UMKC SVN revision control repository used to store the code is required. UMKC internet access privileges are required to access the repository.
-
-All code for the iOS platform is found in the SVN repository located at: [http://134.193.128.7/svn/cs451/branches/team1/roobucks/](http://134.193.128.7/svn/cs451/branches/team1/roobucks/)
+  1. Now you have all of what you need, and we can proceed in the installation.
+  2. First of all you need to download the source file of the client software, from this [link](https://github.com/FrankMartinuz/2020_5BI_team1_Liboni/tree/master/bin/ClientChat/bin)
+  3. Now put all of that file inside a folder and place it where you want to place the programm, but pay attention to not change to file ordere inside the folder.
+  4. Open the Graphic_client.py with python and you have done the installation.
 
 ## 4. Install on Simulator or Device
 

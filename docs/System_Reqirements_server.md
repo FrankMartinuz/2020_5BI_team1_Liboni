@@ -1,4 +1,4 @@
-Client Chat System Documentation
+Server Chat System Documentation
 
 # System Documentation
 
