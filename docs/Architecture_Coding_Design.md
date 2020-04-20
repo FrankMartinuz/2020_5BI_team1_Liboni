@@ -1,22 +1,20 @@
-[Project Name]
-Architecture/Design Document
+# ServerClient chat
+# Architecture/Design Document
 
 
-Table of Contents
+**Table of Contents**
 1. INTRODUCTION
 2.	DESIGN GOALS
 3.	SYSTEM BEHAVIOR
 4.	LOGICAL VIEW	  
 5.	PROCESS VIEW
-6.	DEVELOPMENT VIEW
-7.	PHYSICAL VIEW
-8.	USE CASE VIEW
+6.	PHYSICAL VIEW
+7.	USE CASE VIEW
 
 
 Change History  
-Version: <1.0>  
-Modifier: <First version>  
-Date: 12/11/2019  
+Version: 2.7  
+Date: 12/12/2019  
 Description of Change: First release of complete application
 ______________________________________________________
 
@@ -30,10 +28,11 @@ With this server every group's member can chat with another classmate. The advan
 
 The purpose of this document is to describe the architecture and design of the ServerClientChat application in a way that addresses the interests and concerns of all major stakeholders. For this application the major stakeholders are:
 
-•	Users and the customer – they want assurances that the server will provide a service simple but that it works well for resttrict use that it will have
-•	Developers – they want an architecture that will minimize complexity and development effort.
-•	Project Manager – the project manager want a clean work, as simple as possible. They also want a clear everyone's knowledge of the whole project
-•	Maintenance Programmers – they want assurance that the system will be easy to modify in case of bugs.
+1.  Users - They want a simply interface to use the client
+2.	Users and the customer – they want assurances that the server will provide a service simple but that it works well for resttrict use that it will have
+3.	Developers – they want an architecture that will minimize complexity and development effort.
+4.	Project Manager – the project manager want a clean work, as simple as possible. They also want a clear everyone's knowledge of the whole project
+5.	Maintenance Programmers – they want assurance that the system will be easy to modify in case of bugs.
 
 #	Design Goals
 
@@ -49,11 +48,20 @@ The use case view is used to both drive the design phase and validate the output
 
 **Server**
 
-The Server Side behave in this way:
+The Server side behave in this way:
 1. Wait the user's logins (after sign in if is a new user)
 2. For every user create a new thread (calls Connection)
 3. For every 'connections' it wait any request, or send some answers/messages
 4. At the logout close the thread, then the connection
+
+**Client**
+
+The Client side behave in this way (in the case that you send a message):
+1. Wait the confirmation that the server have received the request of send a message
+2. If the server answere that he have sent the message, the client create a new thread to wait the answere of the other user
+3. After the client have received the answere, it close the thread
+
+
 
 #	Logical View
 
@@ -63,7 +71,9 @@ The architecture of our project is very simple, in fact the *Server* can be assi
 
 # Process View
 
-Only the *Server* crate some processes, they create a new thread for every users connected. In this way every users can have a "private" space in the Server. The thread will be opened with login and closed with logout
+The **Server** crate a new thread for every users connected. In this way every users can have a "private" space in the Server. The thread will be opened with login and closed with logout
+
+The **Server** crate a new thread for every mex sent. In this way the users have a personal chat until the chat goes on. The thread will be opened with the sent of the first message to another users and closed with the end of the chat
 
 #	Physical View
 
