@@ -1,4 +1,3 @@
-# ServerClient chat
 # Architecture/Design Document
 
 
@@ -18,7 +17,7 @@ Date: 12/12/2019
 Description of Change: First release of complete application
 ______________________________________________________
 
-#	Introduction
+##	Introduction
 
 **Server and Client**
 
@@ -34,7 +33,7 @@ The purpose of this document is to describe the architecture and design of the S
 4.	Project Manager – the project manager want a clean work, as simple as possible. They also want a clear everyone's knowledge of the whole project
 5.	Maintenance Programmers – they want assurance that the system will be easy to modify in case of bugs.
 
-#	Design Goals
+##	Design Goals
 
 **Server and Client**
 
@@ -43,7 +42,7 @@ The design priorities for the ServerClientChat application are:
 •	The design should be easy to modify from every programmer.
 • The design must be follow the PEP-8 coding standards
 
-#	System Behavior
+##	System Behavior
 The use case view is used to both drive the design phase and validate the output of the design phase. The architecture description presented here starts with a review of the expect system behavior in order to set the stage for the architecture description that follows. For a more detailed account of software requirements, see the requirements document.
 
 **Server**
@@ -63,23 +62,23 @@ The Client side behave in this way (in the case that you send a message):
 
 
 
-#	Logical View
+##	Logical View
 
 In this section the modules of the system are expressed in terms of components (architecture)
 
 The architecture of our project is very simple, in fact the *Server* can be assigned to the business layer, and we can also have a database for manage our users. For the other side, the *Client* can be assigned to Presentation layer because its purpose is to provide a Graphic Interface
 
-# Process View
+## Process View
 
 The **Server** crate a new thread for every users connected. In this way every users can have a "private" space in the Server. The thread will be opened with login and closed with logout
 
-The **Server** crate a new thread for every mex sent. In this way the users have a personal chat until the chat goes on. The thread will be opened with the sent of the first message to another users and closed with the end of the chat
+The **Client** crate a new thread for every mex sent. In this way the users have a personal chat until the chat goes on. The thread will be opened with the sent of the first message to another users and closed with the end of the chat
 
-#	Physical View
+##	Physical View
 
 The only physical device required is a machine always turned on with a running Server.
 The clients also need a machine but are not essentially for proper operation of server, in fact the server will work fine also without clients.
 
-#	Use Case View
+##	Use Case View
 
 For correct use of this application you need to set up your IP address in .py file and after start it.
