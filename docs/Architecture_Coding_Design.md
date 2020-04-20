@@ -7,9 +7,6 @@ Table of Contents
 2.	DESIGN GOALS
 3.	SYSTEM BEHAVIOR
 4.	LOGICAL VIEW	  
-.1	High-Level Design (Architecture)
-.2	Mid-Level Design
-.3	Detailed Class Design
 5.	PROCESS VIEW
 6.	DEVELOPMENT VIEW
 7.	PHYSICAL VIEW
@@ -25,13 +22,13 @@ ______________________________________________________
 
 #	Introduction
 
-**Server**
+**Server and Client**
 
-This document describes the architecture and design for the ServerChat application being developed for De Carli Lorenzo.
+This document describes the architecture and design for the ServerClientChat application being developed for De Carli Lorenzo.
 
 With this server every group's member can chat with another classmate. The advantage of this system is that it's more secure because it's working only on the LAN
 
-The purpose of this document is to describe the architecture and design of the ServerChat application in a way that addresses the interests and concerns of all major stakeholders. For this application the major stakeholders are:
+The purpose of this document is to describe the architecture and design of the ServerClientChat application in a way that addresses the interests and concerns of all major stakeholders. For this application the major stakeholders are:
 
 •	Users and the customer – they want assurances that the server will provide a service simple but that it works well for resttrict use that it will have
 •	Developers – they want an architecture that will minimize complexity and development effort.
@@ -50,35 +47,29 @@ The design priorities for the ServerClientChat application are:
 #	System Behavior
 The use case view is used to both drive the design phase and validate the output of the design phase. The architecture description presented here starts with a review of the expect system behavior in order to set the stage for the architecture description that follows. For a more detailed account of software requirements, see the requirements document.
 
-<brief description of system behavior>
+**Server**
 
-4	Logical View
-The logical view describes the main functional components of the system. This includes modules, the static relationships between modules, and their dynamic patterns of interaction.
+The Server Side behave in this way:
+1. Wait the user's logins (after sign in if is a new user)
+2. For every user create a new thread (calls Connection)
+3. For every 'connections' it wait any request, or send some answers/messages
+4. At the logout close the thread, then the connection
 
-In this section the modules of the system are first expressed in terms of high level components (architecture) and progressively refined into more detailed components and eventually classes with specific attributes and operations.
-4.1	High-Level Design (Architecture)
-The high-level view or architecture consists of <?> major components:
+#	Logical View
 
-<list and/or show major architecture components>
+In this section the modules of the system are expressed in terms of components (architecture)
 
-Example:
-System Architecture
-•	The GPS device provides the user’s location on campus (longitude and latitude coordinates). In basic mode, the user’s position is used to decide which buildings to announce.
-•	The Database is a central repository for data on buildings, their locations and associated audio segments.
-•	The Audio Player controls playback of audio files.
-•	Given a position on earth, the Mapping Logic will calculate nearby buildings.
-•	The Application Control Logic is the main driver of the application. It presents information to the user and reacts to user inputs.
-4.2	Mid-Level Design
-<Explain and/or show static and dynamic aspects of subsystem components. Probably the most effective way of showing mid-level design is with class and sequence diagrams.>
-4.3	Detailed Class Design
-<For a few key classes you might want to show associations, attributes and methods.>
+The architecture of our project is very simple, in fact the *Server* can be assigned to the business layer, and we can also have a database for manage our users. For the other side, the *Client* can be assigned to Presentation layer because its purpose is to provide a Graphic Interface
 
-5	Process View
+# Process View
 
-<Where are the threads of control in the application?>
+Only the *Server* crate some processes, they create a new thread for every users connected. In this way every users can have a "private" space in the Server. The thread will be opened with login and closed with logout
 
+#	Physical View
 
-6	Physical View
-<Where will major components be physically deployed?>
-7	Use Case View
-<Sketch architecturally significant use cases.>
+The only physical device required is a machine always turned on with a running Server.
+The clients also need a machine but are not essentially for proper operation of server, in fact the server will work fine also without clients.
+
+#	Use Case View
+
+For correct use of this application you need to set up your IP address in .py file and after start it.
