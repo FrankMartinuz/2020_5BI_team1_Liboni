@@ -45,7 +45,7 @@ This document will explain you how to setup your device to use this sofware.
 
   1. Now you have all of what you need, and we can proceed in the installation.
   2. First of all you need to download the source file of the client software, from this [link](https://github.com/FrankMartinuz/2020_5BI_team1_Liboni/tree/master/bin/ServerChat/)
-  3. Now you can put this foldere wherever you want. **IMPORTANT:** bin and user folder are essential
+  3. Now you can put this foldere wherever you want. **IMPORTANT:** bin and user folders are essential
   4. Open the main.py in bin folder with python and you have done the installation.
   5. Now you have started the server, to stop it close relative python window
 
