@@ -9,6 +9,7 @@
 5.	PROCESS VIEW
 6.	PHYSICAL VIEW
 7.	USE CASE VIEW
+8.  CODING
 
 
 Change History  
@@ -82,3 +83,17 @@ The clients also need a machine but are not essentially for proper operation of 
 ##	Use Case View
 
 For correct use of this application you need to set up your IP address in .py file and after start it.
+
+## Coding
+
+**Server and Client**
+
+### Files standards
+All the files are encoded with UTF-8 standard.  
+All the python code was written following PEP-8 standard: you can check the documentation [here](https://www.python.org/dev/peps/pep-0008/)
+
+### Standard of names
+
+*Classes:* UpperCamelCase
+*Function:* lowerCamelCase
+*Variables:* undercase separating words with "_"
