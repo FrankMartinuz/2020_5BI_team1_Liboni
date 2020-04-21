@@ -5,7 +5,7 @@
 | Project Success Criteria Server | Martino, Liboni | Fatto |
 | Project Success Criteria Client | Radosta, Tognella | Fatto |
 | Memo of uderstanding | Liboni, Radosta | Fatto |
-| Architecture, design and coding | Liboni, Radosta, Martino ||
+| Architecture, design and coding | Liboni, Radosta, Martino | Fatto |
 | Test plan | Liboni, Radosta  |Fatto |
 | Test case specification | Liboni, Radosta | Fatto |
 | User guide Server | Liboni, Martino | Fatto |
