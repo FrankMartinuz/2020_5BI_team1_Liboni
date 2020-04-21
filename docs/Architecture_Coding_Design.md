@@ -94,6 +94,6 @@ All the python code was written following PEP-8 standard: you can check the docu
 
 ### Standard of names
 
-*Classes:* UpperCamelCase
-*Function:* lowerCamelCase
-*Variables:* undercase separating words with "_"
+*Classes:* UpperCamelCase  
+*Function:* lowerCamelCase  
+*Variables:* undercase separating words with "_"  
