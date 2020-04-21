@@ -17,6 +17,8 @@ nav:
     - 'User Guide client': 'User_Guide_Client.md'
     - 'User Guide server': 'User_Guide_Server.md'
     - 'Architecture, Design and Coding': 'Architecture_Coding_Design.md'
+    - 'System Requirement client': 'System_Reqirements_client.md'
+    - 'System Requirement server': 'System_Reqirements_server.md'
 
 theme:
     name: readthedocs
