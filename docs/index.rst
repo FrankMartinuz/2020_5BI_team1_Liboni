@@ -1,8 +1,3 @@
-# **Componenti del gruppo**
-  - *Andrea Liboni*
-  - *Francesco Martino*
-  - *Riccardo Radosta*
-  - *Matteo Tognella*
   Read the Docs: Documentation Simplified
   =======================================
 
