@@ -20,5 +20,6 @@ nav:
     - 'System Requirement client': 'System_Reqirements_client.md'
     - 'System Requirement server': 'System_Reqirements_server.md'
     - 'PDF': "PDF/index.md"
+    - 'Architecture, Design and Coding(PDF)': 'PDF/Architecture_Coding_Design.pdf'
 theme:
     name: readthedocs
