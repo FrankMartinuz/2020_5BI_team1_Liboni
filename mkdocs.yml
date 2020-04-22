@@ -20,7 +20,7 @@ nav:
     - 'System Requirement client': 'System_Reqirements_client.md'
     - 'System Requirement server': 'System_Reqirements_server.md'
 nav:
-    name: "PDF"
+    name: PDF
     - "ts": "tst"
 theme:
     name: readthedocs
