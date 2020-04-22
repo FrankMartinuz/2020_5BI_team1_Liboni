@@ -1,6 +1,7 @@
 site_name: 2020_5BI_Team1
 
 nav:
+    - 'MD': 'Default.md'
     - 'Project Model Canvas': 'project-canvas.pdf'
     - 'Business Model Canvas': 'business-model-canvas.pdf'
     - 'Project Charter client': 'project_charter_client.md'
