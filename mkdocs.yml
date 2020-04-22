@@ -19,7 +19,5 @@ nav:
     - 'Architecture, Design and Coding': 'Architecture_Coding_Design.md'
     - 'System Requirement client': 'System_Reqirements_client.md'
     - 'System Requirement server': 'System_Reqirements_server.md'
-nav:
-    - 'ts': 'st'
 theme:
     name: readthedocs
