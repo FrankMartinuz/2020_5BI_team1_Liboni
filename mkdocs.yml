@@ -21,5 +21,20 @@ nav:
     - 'System Requirement server': 'System_Reqirements_server.md'
     - 'PDF': "PDF/index.md"
     - 'Architecture, Design and Coding(PDF)': 'PDF/Architecture_Coding_Design.pdf'
+    - 'Iteration Plan(PDF)': 'PDF/Iteration_Plan.pdf'
+    - 'Memo Of Understanding(PDF)': 'PDF/Memo_of_understanding.pdf'
+    - 'Project Charter client(PDF)': 'PDF/project_charter_client.pdf'
+    - 'Project Charter server(PDF)': 'PDF/project_charter_server.pdf'
+    - 'Project Success Criteria client(PDF)': 'PDF/Project_Success_Criteria_client.pdf'
+    - 'Project Success Criteria server(PDF)': 'PDF/Project_Success_Criteria_server.pdf'
+    - 'Release Plan(PDF)': 'PDF/Release_Plan.md'
+    - 'Software Project Management Plan(PDF)': 'PDF/Software_Project_Management_Plan.pdf'
+    - 'Software Requirements Specification(PDF)': 'PDF/Software_Requirements_Specification.pdf'
+    - 'System Requirement client(PDF)': 'PDF/System_Reqirements_client.pdf'
+    - 'System Requirement server(PDF)': 'PDF/System_Reqirements_server.pdf'
+    - 'Test Case Specification(PDF)': 'PDF/Test_case_specification.pdf'
+    - 'Test Plan(PDF)': 'PDF/Test_Plan.pdf'
+    - 'User Guide client(PDF)': 'PDF/User_Guide_Client.pdf'
+    - 'User Guide server(PDF)': 'PDF/User_Guide_Server.pdf'
 theme:
     name: readthedocs
